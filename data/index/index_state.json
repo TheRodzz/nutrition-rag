@@ -1,8 +1,88 @@
 {
   "index_version": 3,
-  "last_rebuilt_at": "2026-10-16T16:06:28.979213+00:00",
-  "last_rebuild_duration_ms": 3420,
+  "last_rebuilt_at": "2026-10-16T16:38:46.790783+00:00",
+  "last_rebuild_duration_ms": 3245,
   "documents": [
+    {
+      "filename": "al_daaz_bangalore_nutrition.pdf",
+      "file_type": "PDF",
+      "file_size_bytes": 3835,
+      "sha256": "daa5e5ec922788fac8d6ad562d401ceb16d7e512236ec3d980ea1c138015f2f5",
+      "detected_modality": "hybrid",
+      "tabular_confidence": 0.8,
+      "detection_reasoning": "Page 1 (hybrid): 1 explicit grid table(s) detected; 7 macro column keywords + 12 narrative sentences",
+      "restaurant_detected": "Al Daaz Bangalore",
+      "total_pages_or_sections": 1,
+      "tabular_sections_count": 1,
+      "prose_sections_count": 1,
+      "extracted_items_count": 15,
+      "created_chunks_count": 16,
+      "indexed_at": "2026-10-16T16:38:45.874441+00:00"
+    },
+    {
+      "filename": "asha_tiffins_bangalore_nutrition.pdf",
+      "file_type": "PDF",
+      "file_size_bytes": 3902,
+      "sha256": "bec1ed22c71bf2edec588114c70b6e0a15850fa2a4dd2402295e835ab6cbff16",
+      "detected_modality": "hybrid",
+      "tabular_confidence": 0.8,
+      "detection_reasoning": "Page 1 (hybrid): 1 explicit grid table(s) detected; 7 macro column keywords + 5 narrative sentences",
+      "restaurant_detected": "Asha Tiffins Bangalore",
+      "total_pages_or_sections": 1,
+      "tabular_sections_count": 1,
+      "prose_sections_count": 1,
+      "extracted_items_count": 14,
+      "created_chunks_count": 15,
+      "indexed_at": "2026-10-16T16:38:45.992548+00:00"
+    },
+    {
+      "filename": "biryani_by_kilo_nutrition.pdf",
+      "file_type": "PDF",
+      "file_size_bytes": 3764,
+      "sha256": "3756c289d1a939f0db02ef94c43e1627455241e79635907b5f39a89c3e754474",
+      "detected_modality": "hybrid",
+      "tabular_confidence": 0.8,
+      "detection_reasoning": "Page 1 (hybrid): 1 explicit grid table(s) detected; 7 macro column keywords + 7 narrative sentences",
+      "restaurant_detected": "Biryani By Kilo",
+      "total_pages_or_sections": 1,
+      "tabular_sections_count": 1,
+      "prose_sections_count": 1,
+      "extracted_items_count": 14,
+      "created_chunks_count": 15,
+      "indexed_at": "2026-10-16T16:38:46.100692+00:00"
+    },
+    {
+      "filename": "boom_pizza_bangalore_nutrition.pdf",
+      "file_type": "PDF",
+      "file_size_bytes": 3550,
+      "sha256": "7e0a36ec6bdb346f7ce9cf38c318cec23c1811568e1222b6c1bf888efaea02ef",
+      "detected_modality": "hybrid",
+      "tabular_confidence": 0.8,
+      "detection_reasoning": "Page 1 (hybrid): 1 explicit grid table(s) detected; 7 macro column keywords + 12 narrative sentences",
+      "restaurant_detected": "Boom Pizza Bangalore",
+      "total_pages_or_sections": 1,
+      "tabular_sections_count": 1,
+      "prose_sections_count": 1,
+      "extracted_items_count": 13,
+      "created_chunks_count": 14,
+      "indexed_at": "2026-10-16T16:38:46.350503+00:00"
+    },
+    {
+      "filename": "brik_oven_bangalore_nutrition.pdf",
+      "file_type": "PDF",
+      "file_size_bytes": 3889,
+      "sha256": "84cfe79e90fd0265683b679399414b6a60daf931ab723902fa0760383074f2e2",
+      "detected_modality": "hybrid",
+      "tabular_confidence": 0.8,
+      "detection_reasoning": "Page 1 (hybrid): 1 explicit grid table(s) detected; 7 macro column keywords + 10 narrative sentences",
+      "restaurant_detected": "Brik Oven Bangalore",
+      "total_pages_or_sections": 1,
+      "tabular_sections_count": 1,
+      "prose_sections_count": 1,
+      "extracted_items_count": 16,
+      "created_chunks_count": 17,
+      "indexed_at": "2026-10-16T16:38:46.451890+00:00"
+    },
     {
       "filename": "burger_king_india_nutrition_feb_2026.pdf",
       "file_type": "PDF",
@@ -66,6 +146,22 @@
       "extracted_items_count": 74,
       "created_chunks_count": 78,
       "indexed_at": "2026-10-16T16:04:05.624449+00:00"
+    },
+    {
+      "filename": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "file_type": "PDF",
+      "file_size_bytes": 3617,
+      "sha256": "0a002c261e64ec2156ca372c8d342cee547e53499eca90c8a76a5b1012c002fa",
+      "detected_modality": "hybrid",
+      "tabular_confidence": 0.8,
+      "detection_reasoning": "Page 1 (hybrid): 1 explicit grid table(s) detected; 7 macro column keywords + 6 narrative sentences",
+      "restaurant_detected": "Corner House Ice Creams Bangalore",
+      "total_pages_or_sections": 1,
+      "tabular_sections_count": 1,
+      "prose_sections_count": 1,
+      "extracted_items_count": 14,
+      "created_chunks_count": 15,
+      "indexed_at": "2026-10-16T16:38:46.575602+00:00"
     },
     {
       "filename": "fast_food_chains_qsr_nutrition.csv",
@@ -196,6 +292,22 @@
       "indexed_at": "2026-10-16T16:04:30.754547+00:00"
     },
     {
+      "filename": "plan_b_bangalore_nutrition.pdf",
+      "file_type": "PDF",
+      "file_size_bytes": 3934,
+      "sha256": "e8b745b3a4e3aa1b976d9a5188853477640344441741d6544afc046586c812ff",
+      "detected_modality": "hybrid",
+      "tabular_confidence": 0.8,
+      "detection_reasoning": "Page 1 (hybrid): 1 explicit grid table(s) detected; 7 macro column keywords + 7 narrative sentences",
+      "restaurant_detected": "Plan B Bangalore",
+      "total_pages_or_sections": 1,
+      "tabular_sections_count": 1,
+      "prose_sections_count": 1,
+      "extracted_items_count": 15,
+      "created_chunks_count": 16,
+      "indexed_at": "2026-10-16T16:38:46.678803+00:00"
+    },
+    {
       "filename": "subway_india_december_2024_v248.pdf",
       "file_type": "PDF",
       "file_size_bytes": 591825,
@@ -245,6 +357,1002 @@
     }
   ],
   "chunks": [
+    {
+      "chunk_id": "chunk_1395963259899a",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Arabian Mandi | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chicken Mandi (Half Portion) | Serving Size: 450g\nMacros \u2014 Calories: 740.0 kcal, Protein: 42.0g, Carbohydrates: 85.0g, Total Fat: 25.0g, Dietary Fiber: 3.5g | Allergens: Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_1395963259899a",
+        "item_name": "Chicken Mandi (Half Portion)",
+        "category": "Arabian Mandi"
+      }
+    },
+    {
+      "chunk_id": "chunk_dc6c4bad807208",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Arabian Mandi | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chicken Mandi (Full Portion) | Serving Size: 900g\nMacros \u2014 Calories: 1480.0 kcal, Protein: 84.0g, Carbohydrates: 170.0g, Total Fat: 50.0g, Dietary Fiber: 7.0g | Allergens: Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_dc6c4bad807208",
+        "item_name": "Chicken Mandi (Full Portion)",
+        "category": "Arabian Mandi"
+      }
+    },
+    {
+      "chunk_id": "chunk_ed8ccd51461937",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Arabian Mandi | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Mutton Mandi (Half Portion) | Serving Size: 500g\nMacros \u2014 Calories: 880.0 kcal, Protein: 46.0g, Carbohydrates: 86.0g, Total Fat: 38.0g, Dietary Fiber: 3.2g | Allergens: Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_ed8ccd51461937",
+        "item_name": "Mutton Mandi (Half Portion)",
+        "category": "Arabian Mandi"
+      }
+    },
+    {
+      "chunk_id": "chunk_914a043e7d1bf3",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Arabian Mandi | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Fish Mandi (Grilled Kingfish) | Serving Size: 460g\nMacros \u2014 Calories: 690.0 kcal, Protein: 44.0g, Carbohydrates: 84.0g, Total Fat: 19.0g, Dietary Fiber: 3.0g | Allergens: Fish, Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_914a043e7d1bf3",
+        "item_name": "Fish Mandi (Grilled Kingfish)",
+        "category": "Arabian Mandi"
+      }
+    },
+    {
+      "chunk_id": "chunk_b7da21e76d813a",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Arabian Mandi | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Special Mixed Arabic Mandi Platter | Serving Size: 1100g\nMacros \u2014 Calories: 1820.0 kcal, Protein: 110.0g, Carbohydrates: 190.0g, Total Fat: 68.0g, Dietary Fiber: 8.0g | Allergens: Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_b7da21e76d813a",
+        "item_name": "Special Mixed Arabic Mandi Platter",
+        "category": "Arabian Mandi"
+      }
+    },
+    {
+      "chunk_id": "chunk_ccc7eaca7c8b39",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Charcoal Grills | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Charcoal Grilled BBQ Chicken (Half) | Serving Size: 350g\nMacros \u2014 Calories: 540.0 kcal, Protein: 62.0g, Carbohydrates: 8.0g, Total Fat: 28.0g, Dietary Fiber: 1.5g | Allergens: None | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_ccc7eaca7c8b39",
+        "item_name": "Charcoal Grilled BBQ Chicken (Half)",
+        "category": "Charcoal Grills"
+      }
+    },
+    {
+      "chunk_id": "chunk_41f4eb4dc00943",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Charcoal Grills | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Charcoal Grilled BBQ Chicken (Full) | Serving Size: 700g\nMacros \u2014 Calories: 1080.0 kcal, Protein: 124.0g, Carbohydrates: 16.0g, Total Fat: 56.0g, Dietary Fiber: 3.0g | Allergens: None | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_41f4eb4dc00943",
+        "item_name": "Charcoal Grilled BBQ Chicken (Full)",
+        "category": "Charcoal Grills"
+      }
+    },
+    {
+      "chunk_id": "chunk_411ccfe652952f",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Shawarma & Wraps | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Arabian Chicken Shawarma Roll | Serving Size: 220g\nMacros \u2014 Calories: 480.0 kcal, Protein: 28.0g, Carbohydrates: 44.0g, Total Fat: 21.0g, Dietary Fiber: 2.5g | Allergens: Gluten | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_411ccfe652952f",
+        "item_name": "Arabian Chicken Shawarma Roll",
+        "category": "Shawarma & Wraps"
+      }
+    },
+    {
+      "chunk_id": "chunk_a7d383f63da314",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Shawarma & Wraps | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Special BBQ Chicken Wrap | Serving Size: 240g\nMacros \u2014 Calories: 510.0 kcal, Protein: 29.0g, Carbohydrates: 48.0g, Total Fat: 22.0g, Dietary Fiber: 2.5g | Allergens: Gluten | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_a7d383f63da314",
+        "item_name": "Special BBQ Chicken Wrap",
+        "category": "Shawarma & Wraps"
+      }
+    },
+    {
+      "chunk_id": "chunk_7bab5bcfc4171c",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Starters & Wings | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Spicy Chicken Wings (6 pcs) | Serving Size: 200g\nMacros \u2014 Calories: 470.0 kcal, Protein: 29.0g, Carbohydrates: 18.0g, Total Fat: 31.0g, Dietary Fiber: 1.2g | Allergens: Gluten | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_7bab5bcfc4171c",
+        "item_name": "Spicy Chicken Wings (6 pcs)",
+        "category": "Starters & Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_0393372902d167",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Tandoori Kebabs | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chicken Tikka Kebab (6 pcs) | Serving Size: 180g\nMacros \u2014 Calories: 290.0 kcal, Protein: 36.0g, Carbohydrates: 6.0g, Total Fat: 13.0g, Dietary Fiber: 1.5g | Allergens: Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_0393372902d167",
+        "item_name": "Chicken Tikka Kebab (6 pcs)",
+        "category": "Tandoori Kebabs"
+      }
+    },
+    {
+      "chunk_id": "chunk_c5180f0e032e0f",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Tandoori Kebabs | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Mutton Seekh Kebab (2 Skewers) | Serving Size: 160g\nMacros \u2014 Calories: 340.0 kcal, Protein: 26.0g, Carbohydrates: 4.0g, Total Fat: 24.0g, Dietary Fiber: 1.0g | Allergens: None | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_c5180f0e032e0f",
+        "item_name": "Mutton Seekh Kebab (2 Skewers)",
+        "category": "Tandoori Kebabs"
+      }
+    },
+    {
+      "chunk_id": "chunk_21a81473fa48fa",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Dips & Sides | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Fresh Toum Garlic Dip (Extra) | Serving Size: 60g\nMacros \u2014 Calories: 190.0 kcal, Protein: 1.0g, Carbohydrates: 3.0g, Total Fat: 20.0g, Dietary Fiber: 0.2g | Allergens: None | Diet: Veg",
+      "metadata": {
+        "item_id": "item_21a81473fa48fa",
+        "item_name": "Fresh Toum Garlic Dip (Extra)",
+        "category": "Dips & Sides"
+      }
+    },
+    {
+      "chunk_id": "chunk_5edce9e1db7c54",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Beverages | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Green Apple Mojito | Serving Size: 300ml\nMacros \u2014 Calories: 140.0 kcal, Protein: 0.2g, Carbohydrates: 35.0g, Total Fat: 0.0g, Dietary Fiber: 0.5g | Allergens: None | Diet: Veg",
+      "metadata": {
+        "item_id": "item_5edce9e1db7c54",
+        "item_name": "Green Apple Mojito",
+        "category": "Beverages"
+      }
+    },
+    {
+      "chunk_id": "chunk_225afa2dc76cce",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Category: Desserts | Source: al_daaz_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chocolate Fantasy Sundae | Serving Size: 180g\nMacros \u2014 Calories: 420.0 kcal, Protein: 6.5g, Carbohydrates: 56.0g, Total Fat: 19.0g, Dietary Fiber: 2.0g | Allergens: Milk, Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_225afa2dc76cce",
+        "item_name": "Chocolate Fantasy Sundae",
+        "category": "Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_97632cb14626dc",
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "restaurant": "Al Daaz Bangalore",
+      "page_or_section": "Page 1",
+      "doc_modality": "non_tabular",
+      "content": "[Restaurant: Al Daaz Bangalore | Source: al_daaz_bangalore_nutrition.pdf (Page 1) | Modality: Non-Tabular Prose]\nAl Daaz Bengaluru (HSR Layout) \u2014 Nutritional & Allergen Information Guide\nAuthentic Arabian Mandi, Middle Eastern Charcoal Grills, Shawarma & Mughlai Platters. Portion weights and macros calculated for dining and delivery servings.\nEnergy Protein Carbohydrat Total Fat Dietary\nItem Name Category Diet Serving Size Allergens\n(kcal) (g) es (g) (g) Fiber (g)\nChicken Mandi (Half Portion) Arabian Mandi Non-Veg 450g 740.0 42.0 85.0 25.0 3.5 Nuts\nChicken Mandi (Full Portion) Arabian Mandi Non-Veg 900g 1480.0 84.0 170.0 50.0 7.0 Nuts\nMutton Mandi (Half Portion) Arabian Mandi Non-Veg 500g 880.0 46.0 86.0 38.0 3.2 Nuts\nFish Mandi (Grilled Kingfish) Arabian Mandi Non-Veg 460g 690.0 44.0 84.0 19.0 3.0 Fish, Nuts\nSpecial Mixed Arabic Mandi Platter Arabian Mandi Non-Veg 1100g 1820.0 110.0 190.0 68.0 8.0 Nuts\nCharcoal Grilled BBQ Chicken\nCharcoal Grills Non-Veg 350g 540.0 62.0 8.0 28.0 1.5 None\n(Half)\nCharcoal Grilled BBQ Chicken (Full) Charcoal Grills Non-Veg 700g 1080.0 124.0 16.0 56.0 3.0 None\nArabian Chicken Shawarma Roll Shawarma & Wraps Non-Veg 220g 480.0 28.0 44.0 21.0 2.5 Gluten\nSpecial BBQ Chicken Wrap Shawarma & Wraps Non-Veg 240g 510.0 29.0 48.0 22.0 2.5 Gluten\nSpicy Chicken Wings (6 pcs) Starters & Wings Non-Veg 200g 470.0 29.0 18.0 31.0 1.2 Gluten\nChicken Tikka Kebab (6 pcs) Tandoori Kebabs Non-Veg 180g 290.0 36.0 6.0 13.0 1.5 Milk\nMutton Seekh Kebab (2 Skewers) Tandoori Kebabs Non-Veg 160g 340.0 26.0 4.0 24.0 1.0 None\nFresh Toum Garlic Dip (Extra) Dips & Sides Veg 60g 190.0 1.0 3.0 20.0 0.2 None\nGreen Apple Mojito Beverages Veg 300ml 140.0 0.2 35.0 0.0 0.5 None\nChocolate Fantasy Sundae Desserts Veg 180g 420.0 6.5 56.0 19.0 2.0 Milk, Gluten",
+      "metadata": {
+        "chunk_index": 0,
+        "raw_length": 1664
+      }
+    },
+    {
+      "chunk_id": "chunk_fbab6d4cb1632b",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Dosas & Crepes | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Ghee Roast Masala Dosa with Chutneys & Sambar | Serving Size: 220g\nMacros \u2014 Calories: 420.0 kcal, Protein: 7.5g, Carbohydrates: 58.0g, Total Fat: 18.0g, Dietary Fiber: 4.0g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_fbab6d4cb1632b",
+        "item_name": "Ghee Roast Masala Dosa with Chutneys & Sambar",
+        "category": "Dosas & Crepes"
+      }
+    },
+    {
+      "chunk_id": "chunk_178823eaf680ae",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Dosas & Crepes | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Plain Ghee Roast Dosa with Chutneys | Serving Size: 150g\nMacros \u2014 Calories: 340.0 kcal, Protein: 5.8g, Carbohydrates: 48.0g, Total Fat: 14.0g, Dietary Fiber: 2.5g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_178823eaf680ae",
+        "item_name": "Plain Ghee Roast Dosa with Chutneys",
+        "category": "Dosas & Crepes"
+      }
+    },
+    {
+      "chunk_id": "chunk_70bfe4a416b52c",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Dosas & Crepes | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Open Butter Masala Dosa with Podi | Serving Size: 240g\nMacros \u2014 Calories: 480.0 kcal, Protein: 8.2g, Carbohydrates: 60.0g, Total Fat: 23.0g, Dietary Fiber: 4.5g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_70bfe4a416b52c",
+        "item_name": "Open Butter Masala Dosa with Podi",
+        "category": "Dosas & Crepes"
+      }
+    },
+    {
+      "chunk_id": "chunk_aa52727a8c7094",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Dosas & Crepes | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Set Dosa with Saagu (3 Spongy Dosas) | Serving Size: 260g\nMacros \u2014 Calories: 390.0 kcal, Protein: 8.5g, Carbohydrates: 66.0g, Total Fat: 10.5g, Dietary Fiber: 5.0g | Allergens: None | Diet: Veg",
+      "metadata": {
+        "item_id": "item_aa52727a8c7094",
+        "item_name": "Set Dosa with Saagu (3 Spongy Dosas)",
+        "category": "Dosas & Crepes"
+      }
+    },
+    {
+      "chunk_id": "chunk_aa68db161c128f",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Dosas & Crepes | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Rava Masala Dosa with Potato Palya | Serving Size: 210g\nMacros \u2014 Calories: 380.0 kcal, Protein: 7.2g, Carbohydrates: 56.0g, Total Fat: 13.5g, Dietary Fiber: 3.8g | Allergens: Gluten, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_aa68db161c128f",
+        "item_name": "Rava Masala Dosa with Potato Palya",
+        "category": "Dosas & Crepes"
+      }
+    },
+    {
+      "chunk_id": "chunk_1a120804597e4a",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Idlis & Vadas | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Thatte Idli with Ghee & Podi | Serving Size: 150g\nMacros \u2014 Calories: 260.0 kcal, Protein: 6.8g, Carbohydrates: 42.0g, Total Fat: 7.5g, Dietary Fiber: 2.8g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_1a120804597e4a",
+        "item_name": "Thatte Idli with Ghee & Podi",
+        "category": "Idlis & Vadas"
+      }
+    },
+    {
+      "chunk_id": "chunk_e9294735c1cfdb",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Idlis & Vadas | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Button Idli Sambar Dip (14 pcs Mini Idlis) | Serving Size: 260g\nMacros \u2014 Calories: 290.0 kcal, Protein: 9.2g, Carbohydrates: 52.0g, Total Fat: 4.5g, Dietary Fiber: 5.5g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_e9294735c1cfdb",
+        "item_name": "Button Idli Sambar Dip (14 pcs Mini Idlis)",
+        "category": "Idlis & Vadas"
+      }
+    },
+    {
+      "chunk_id": "chunk_ea65f9f5fb322c",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Idlis & Vadas | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Medu Vada / Udin Vada (2 pcs) | Serving Size: 110g\nMacros \u2014 Calories: 320.0 kcal, Protein: 8.8g, Carbohydrates: 26.0g, Total Fat: 20.0g, Dietary Fiber: 3.2g | Allergens: None | Diet: Veg",
+      "metadata": {
+        "item_id": "item_ea65f9f5fb322c",
+        "item_name": "Medu Vada / Udin Vada (2 pcs)",
+        "category": "Idlis & Vadas"
+      }
+    },
+    {
+      "chunk_id": "chunk_d11f43bad15223",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Traditional Rice Baths | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Bisi Bele Bath with Boondi | Serving Size: 250g\nMacros \u2014 Calories: 360.0 kcal, Protein: 9.5g, Carbohydrates: 56.0g, Total Fat: 10.5g, Dietary Fiber: 5.8g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_d11f43bad15223",
+        "item_name": "Bisi Bele Bath with Boondi",
+        "category": "Traditional Rice Baths"
+      }
+    },
+    {
+      "chunk_id": "chunk_8ea4c24f17e7e4",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Traditional Rice Baths | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Khara Bath (Savory Semolina Upma) | Serving Size: 180g\nMacros \u2014 Calories: 240.0 kcal, Protein: 5.2g, Carbohydrates: 36.0g, Total Fat: 8.5g, Dietary Fiber: 3.0g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_8ea4c24f17e7e4",
+        "item_name": "Khara Bath (Savory Semolina Upma)",
+        "category": "Traditional Rice Baths"
+      }
+    },
+    {
+      "chunk_id": "chunk_498d40f642b600",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Traditional Sweets | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Kesari Bath (Pineapple Saffron Semolina Halwa) | Serving Size: 140g\nMacros \u2014 Calories: 330.0 kcal, Protein: 4.0g, Carbohydrates: 52.0g, Total Fat: 12.0g, Dietary Fiber: 1.2g | Allergens: Gluten, Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_498d40f642b600",
+        "item_name": "Kesari Bath (Pineapple Saffron Semolina Halwa)",
+        "category": "Traditional Sweets"
+      }
+    },
+    {
+      "chunk_id": "chunk_cb92424b0c05be",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Breakfast Meals | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Poori Saagu (3 Wheat Pooris with Veg Saagu) | Serving Size: 220g\nMacros \u2014 Calories: 440.0 kcal, Protein: 8.5g, Carbohydrates: 58.0g, Total Fat: 19.0g, Dietary Fiber: 5.5g | Allergens: Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_cb92424b0c05be",
+        "item_name": "Poori Saagu (3 Wheat Pooris with Veg Saagu)",
+        "category": "Breakfast Meals"
+      }
+    },
+    {
+      "chunk_id": "chunk_0a620a0b3b2678",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Beverages | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Authentic South Indian Filter Coffee | Serving Size: 150ml\nMacros \u2014 Calories: 115.0 kcal, Protein: 3.4g, Carbohydrates: 15.0g, Total Fat: 4.2g, Dietary Fiber: 0.0g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_0a620a0b3b2678",
+        "item_name": "Authentic South Indian Filter Coffee",
+        "category": "Beverages"
+      }
+    },
+    {
+      "chunk_id": "chunk_60c492148bb121",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Category: Beverages | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Fresh Badam Milk (Hot) | Serving Size: 180ml\nMacros \u2014 Calories: 165.0 kcal, Protein: 5.2g, Carbohydrates: 21.0g, Total Fat: 6.8g, Dietary Fiber: 0.5g | Allergens: Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_60c492148bb121",
+        "item_name": "Fresh Badam Milk (Hot)",
+        "category": "Beverages"
+      }
+    },
+    {
+      "chunk_id": "chunk_3257fe311d3084",
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "restaurant": "Asha Tiffins Bangalore",
+      "page_or_section": "Page 1",
+      "doc_modality": "non_tabular",
+      "content": "[Restaurant: Asha Tiffins Bangalore | Source: asha_tiffins_bangalore_nutrition.pdf (Page 1) | Modality: Non-Tabular Prose]\nAsha Tiffins Bengaluru (HSR Layout) \u2014 Nutritional & Allergen Information Guide\nBengaluru's Iconic South Indian Breakfast & Darshini Classics. Pure ghee dosas, steamed thatte idlis, medu vadas, traditional rice baths, and filter coffee.\nEnergy Protein Carbohydrat Total Fat Dietary\nItem Name Category Diet Serving Size Allergens\n(kcal) (g) es (g) (g) Fiber (g)\nGhee Roast Masala Dosa with\nDosas & Crepes Veg 220g 420.0 7.5 58.0 18.0 4.0 Milk\nChutneys & Sambar\nPlain Ghee Roast Dosa with\nDosas & Crepes Veg 150g 340.0 5.8 48.0 14.0 2.5 Milk\nChutneys\nOpen Butter Masala Dosa with Podi Dosas & Crepes Veg 240g 480.0 8.2 60.0 23.0 4.5 Milk\nSet Dosa with Saagu (3 Spongy\nDosas & Crepes Veg 260g 390.0 8.5 66.0 10.5 5.0 None\nDosas)\nRava Masala Dosa with Potato\nDosas & Crepes Veg 210g 380.0 7.2 56.0 13.5 3.8 Gluten, Nuts\nPalya\nThatte Idli with Ghee & Podi Idlis & Vadas Veg 150g 260.0 6.8 42.0 7.5 2.8 Milk\nButton Idli Sambar Dip (14 pcs Mini\nIdlis & Vadas Veg 260g 290.0 9.2 52.0 4.5 5.5 Milk\nIdlis)\nMedu Vada / Udin Vada (2 pcs) Idlis & Vadas Veg 110g 320.0 8.8 26.0 20.0 3.2 None\nBisi Bele Bath with Boondi Traditional Rice Baths Veg 250g 360.0 9.5 56.0 10.5 5.8 Milk\nKhara Bath (Savory Semolina\nTraditional Rice Baths Veg 180g 240.0 5.2 36.0 8.5 3.0 Gluten, Milk\nUpma)\nKesari Bath (Pineapple Saffron\nTraditional Sweets Veg 140g 330.0 4.0 52.0 12.0 1.2 Gluten, Milk, Nuts\nSemolina Halwa)\nPoori Saagu (3 Wheat Pooris with\nBreakfast Meals Veg 220g 440.0 8.5 58.0 19.0 5.5 Gluten\nVeg Saagu)\nAuthentic South Indian Filter Coffee Beverages Veg 150ml 115.0 3.4 15.0 4.2 0.0 Milk\nFresh Badam Milk (Hot) Beverages Veg 180ml 165.0 5.2 21.0 6.8 0.5 Milk, Nuts",
+      "metadata": {
+        "chunk_index": 0,
+        "raw_length": 1646
+      }
+    },
+    {
+      "chunk_id": "chunk_740c6905fc1397",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Hyderabadi Chicken Dum Biryani (1/2 kg Handi) | Serving Size: 500g\nMacros \u2014 Calories: 720.0 kcal, Protein: 38.0g, Carbohydrates: 86.0g, Total Fat: 24.0g, Dietary Fiber: 4.5g | Allergens: Milk, Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_740c6905fc1397",
+        "item_name": "Hyderabadi Chicken Dum Biryani (1/2 kg Handi)",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_e7c9e92f1d36be",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Hyderabadi Chicken Dum Biryani (1 kg Handi) | Serving Size: 1000g\nMacros \u2014 Calories: 1440.0 kcal, Protein: 76.0g, Carbohydrates: 172.0g, Total Fat: 48.0g, Dietary Fiber: 9.0g | Allergens: Milk, Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_e7c9e92f1d36be",
+        "item_name": "Hyderabadi Chicken Dum Biryani (1 kg Handi)",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_ace787ec3ff9b6",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Hyderabadi Mutton Dum Biryani (1/2 kg Handi) | Serving Size: 500g\nMacros \u2014 Calories: 840.0 kcal, Protein: 41.0g, Carbohydrates: 84.0g, Total Fat: 37.0g, Dietary Fiber: 4.0g | Allergens: Milk, Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_ace787ec3ff9b6",
+        "item_name": "Hyderabadi Mutton Dum Biryani (1/2 kg Handi)",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_5dc0e95153c9af",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Hyderabadi Mutton Dum Biryani (1 kg Handi) | Serving Size: 1000g\nMacros \u2014 Calories: 1680.0 kcal, Protein: 82.0g, Carbohydrates: 168.0g, Total Fat: 74.0g, Dietary Fiber: 8.0g | Allergens: Milk, Nuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_5dc0e95153c9af",
+        "item_name": "Hyderabadi Mutton Dum Biryani (1 kg Handi)",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_d66bb7a8e60206",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Lucknowi Chicken Dum Biryani (1/2 kg Handi) | Serving Size: 500g\nMacros \u2014 Calories: 680.0 kcal, Protein: 36.0g, Carbohydrates: 85.0g, Total Fat: 21.0g, Dietary Fiber: 3.8g | Allergens: Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_d66bb7a8e60206",
+        "item_name": "Lucknowi Chicken Dum Biryani (1/2 kg Handi)",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_74e070b336de2a",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Kolkata Chicken Dum Biryani with Aloo & Egg | Serving Size: 520g\nMacros \u2014 Calories: 740.0 kcal, Protein: 34.0g, Carbohydrates: 94.0g, Total Fat: 23.0g, Dietary Fiber: 4.2g | Allergens: Milk, Egg | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_74e070b336de2a",
+        "item_name": "Kolkata Chicken Dum Biryani with Aloo & Egg",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_65d8c5cc120f65",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Veg Dum Biryani (1/2 kg Handi) | Serving Size: 480g\nMacros \u2014 Calories: 560.0 kcal, Protein: 14.0g, Carbohydrates: 88.0g, Total Fat: 16.0g, Dietary Fiber: 6.2g | Allergens: Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_65d8c5cc120f65",
+        "item_name": "Veg Dum Biryani (1/2 kg Handi)",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_10428207aa5584",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Dum Biryanis | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Paneer Dum Biryani (1/2 kg Handi) | Serving Size: 500g\nMacros \u2014 Calories: 670.0 kcal, Protein: 22.0g, Carbohydrates: 86.0g, Total Fat: 26.0g, Dietary Fiber: 5.0g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_10428207aa5584",
+        "item_name": "Paneer Dum Biryani (1/2 kg Handi)",
+        "category": "Dum Biryanis"
+      }
+    },
+    {
+      "chunk_id": "chunk_de72f0245d1645",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Starters & Kebabs | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chicken Ghee Roast | Serving Size: 240g\nMacros \u2014 Calories: 460.0 kcal, Protein: 34.0g, Carbohydrates: 10.0g, Total Fat: 32.0g, Dietary Fiber: 2.0g | Allergens: Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_de72f0245d1645",
+        "item_name": "Chicken Ghee Roast",
+        "category": "Starters & Kebabs"
+      }
+    },
+    {
+      "chunk_id": "chunk_ba34eea1803333",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Starters & Kebabs | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Galouti Kebab (4 pcs) | Serving Size: 180g\nMacros \u2014 Calories: 380.0 kcal, Protein: 27.0g, Carbohydrates: 6.0g, Total Fat: 28.0g, Dietary Fiber: 1.2g | Allergens: None | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_ba34eea1803333",
+        "item_name": "Galouti Kebab (4 pcs)",
+        "category": "Starters & Kebabs"
+      }
+    },
+    {
+      "chunk_id": "chunk_9e078077ed72d0",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Desserts | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Matka Phirni (Clay Pot) | Serving Size: 120g\nMacros \u2014 Calories: 240.0 kcal, Protein: 5.5g, Carbohydrates: 36.0g, Total Fat: 8.5g, Dietary Fiber: 0.8g | Allergens: Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_9e078077ed72d0",
+        "item_name": "Matka Phirni (Clay Pot)",
+        "category": "Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_a65e05615a6645",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Desserts | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Gulab Jamun (2 pcs in Handi) | Serving Size: 100g\nMacros \u2014 Calories: 320.0 kcal, Protein: 4.5g, Carbohydrates: 54.0g, Total Fat: 9.5g, Dietary Fiber: 0.5g | Allergens: Milk, Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_a65e05615a6645",
+        "item_name": "Gulab Jamun (2 pcs in Handi)",
+        "category": "Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_11a0e2357d4c89",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Accompaniments | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Mirchi Ka Salan (Side Gravy) | Serving Size: 100g\nMacros \u2014 Calories: 150.0 kcal, Protein: 3.5g, Carbohydrates: 8.0g, Total Fat: 12.0g, Dietary Fiber: 2.2g | Allergens: Peanuts, Sesame | Diet: Veg",
+      "metadata": {
+        "item_id": "item_11a0e2357d4c89",
+        "item_name": "Mirchi Ka Salan (Side Gravy)",
+        "category": "Accompaniments"
+      }
+    },
+    {
+      "chunk_id": "chunk_2ec6729b45d4bd",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Biryani By Kilo | Category: Accompaniments | Source: biryani_by_kilo_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Burani Raita (Garlic Spiced Curd) | Serving Size: 100g\nMacros \u2014 Calories: 90.0 kcal, Protein: 3.8g, Carbohydrates: 6.0g, Total Fat: 5.2g, Dietary Fiber: 0.4g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_2ec6729b45d4bd",
+        "item_name": "Burani Raita (Garlic Spiced Curd)",
+        "category": "Accompaniments"
+      }
+    },
+    {
+      "chunk_id": "chunk_fb66e4e87cc3aa",
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "restaurant": "Biryani By Kilo",
+      "page_or_section": "Page 1",
+      "doc_modality": "non_tabular",
+      "content": "[Restaurant: Biryani By Kilo | Source: biryani_by_kilo_nutrition.pdf (Page 1) | Modality: Non-Tabular Prose]\nBiryani By Kilo (BBK) \u2014 Nutritional & Allergen Information Guide\nAuthentic Dum Biryanis slow-cooked in individual clay handis with long-grain aged basmati rice, royal Awadhi spices, and fresh cuts. Macros measured per standard handi portion.\nEnergy Protein Carbohydrat Total Fat Dietary\nItem Name Category Diet Serving Size Allergens\n(kcal) (g) es (g) (g) Fiber (g)\nHyderabadi Chicken Dum Biryani\nDum Biryanis Non-Veg 500g 720.0 38.0 86.0 24.0 4.5 Milk, Nuts\n(1/2 kg Handi)\nHyderabadi Chicken Dum Biryani (1\nDum Biryanis Non-Veg 1000g 1440.0 76.0 172.0 48.0 9.0 Milk, Nuts\nkg Handi)\nHyderabadi Mutton Dum Biryani\nDum Biryanis Non-Veg 500g 840.0 41.0 84.0 37.0 4.0 Milk, Nuts\n(1/2 kg Handi)\nHyderabadi Mutton Dum Biryani (1\nDum Biryanis Non-Veg 1000g 1680.0 82.0 168.0 74.0 8.0 Milk, Nuts\nkg Handi)\nLucknowi Chicken Dum Biryani (1/2\nDum Biryanis Non-Veg 500g 680.0 36.0 85.0 21.0 3.8 Milk\nkg Handi)\nKolkata Chicken Dum Biryani with\nDum Biryanis Non-Veg 520g 740.0 34.0 94.0 23.0 4.2 Milk, Egg\nAloo & Egg\nVeg Dum Biryani (1/2 kg Handi) Dum Biryanis Veg 480g 560.0 14.0 88.0 16.0 6.2 Milk, Nuts\nPaneer Dum Biryani (1/2 kg Handi) Dum Biryanis Veg 500g 670.0 22.0 86.0 26.0 5.0 Milk\nChicken Ghee Roast Starters & Kebabs Non-Veg 240g 460.0 34.0 10.0 32.0 2.0 Milk\nGalouti Kebab (4 pcs) Starters & Kebabs Non-Veg 180g 380.0 27.0 6.0 28.0 1.2 None\nMatka Phirni (Clay Pot) Desserts Veg 120g 240.0 5.5 36.0 8.5 0.8 Milk, Nuts\nGulab Jamun (2 pcs in Handi) Desserts Veg 100g 320.0 4.5 54.0 9.5 0.5 Milk, Gluten\nMirchi Ka Salan (Side Gravy) Accompaniments Veg 100g 150.0 3.5 8.0 12.0 2.2 Peanuts, Sesame\nBurani Raita (Garlic Spiced Curd) Accompaniments Veg 100g 90.0 3.8 6.0 5.2 0.4 Milk",
+      "metadata": {
+        "chunk_index": 0,
+        "raw_length": 1674
+      }
+    },
+    {
+      "chunk_id": "chunk_8b12ebd5a64249",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Wood-Fired Classics | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Classic Margherita Pizza | Serving Size: 260g\nMacros \u2014 Calories: 610.0 kcal, Protein: 22.0g, Carbohydrates: 78.0g, Total Fat: 23.0g, Dietary Fiber: 3.5g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_8b12ebd5a64249",
+        "item_name": "Classic Margherita Pizza",
+        "category": "Wood-Fired Classics"
+      }
+    },
+    {
+      "chunk_id": "chunk_b10501db5f6932",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Wood-Fired Classics | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Pepperoni Boom Pizza | Serving Size: 290g\nMacros \u2014 Calories: 760.0 kcal, Protein: 31.0g, Carbohydrates: 77.0g, Total Fat: 36.0g, Dietary Fiber: 3.2g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_b10501db5f6932",
+        "item_name": "Pepperoni Boom Pizza",
+        "category": "Wood-Fired Classics"
+      }
+    },
+    {
+      "chunk_id": "chunk_10bede2c3694e8",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Fusion & Veg Pizzas | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Pesto Paneer Pizza | Serving Size: 300g\nMacros \u2014 Calories: 740.0 kcal, Protein: 28.0g, Carbohydrates: 76.0g, Total Fat: 36.0g, Dietary Fiber: 4.2g | Allergens: Gluten, Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_10bede2c3694e8",
+        "item_name": "Pesto Paneer Pizza",
+        "category": "Fusion & Veg Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_be52cc85eb514e",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Fusion & Meat Pizzas | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Butter Chicken Pizza | Serving Size: 320g\nMacros \u2014 Calories: 780.0 kcal, Protein: 38.0g, Carbohydrates: 82.0g, Total Fat: 33.0g, Dietary Fiber: 3.8g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_be52cc85eb514e",
+        "item_name": "Butter Chicken Pizza",
+        "category": "Fusion & Meat Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_8049c5c09846e0",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Fusion & Meat Pizzas | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Ghee Roast Chicken Pizza | Serving Size: 320g\nMacros \u2014 Calories: 820.0 kcal, Protein: 39.0g, Carbohydrates: 78.0g, Total Fat: 39.0g, Dietary Fiber: 3.5g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_8049c5c09846e0",
+        "item_name": "Ghee Roast Chicken Pizza",
+        "category": "Fusion & Meat Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_8371bdd86aa6c1",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Fusion & Veg Pizzas | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Ghee Roast Paneer Pizza | Serving Size: 310g\nMacros \u2014 Calories: 790.0 kcal, Protein: 26.0g, Carbohydrates: 79.0g, Total Fat: 41.0g, Dietary Fiber: 3.8g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_8371bdd86aa6c1",
+        "item_name": "Ghee Roast Paneer Pizza",
+        "category": "Fusion & Veg Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_ecab9efc1f6d01",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Fusion & Meat Pizzas | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Gongura Chicken Pizza | Serving Size: 310g\nMacros \u2014 Calories: 750.0 kcal, Protein: 37.0g, Carbohydrates: 78.0g, Total Fat: 31.0g, Dietary Fiber: 4.0g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_ecab9efc1f6d01",
+        "item_name": "Gongura Chicken Pizza",
+        "category": "Fusion & Meat Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_61ad351c3c38df",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Fusion & Veg Pizzas | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Veggie Loaded Wood-Fired Pizza | Serving Size: 290g\nMacros \u2014 Calories: 640.0 kcal, Protein: 23.0g, Carbohydrates: 84.0g, Total Fat: 24.0g, Dietary Fiber: 5.2g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_61ad351c3c38df",
+        "item_name": "Veggie Loaded Wood-Fired Pizza",
+        "category": "Fusion & Veg Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_5adde962116f86",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Sides & Breads | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Wood-Fired Garlic Breadsticks with Dip | Serving Size: 160g\nMacros \u2014 Calories: 420.0 kcal, Protein: 9.0g, Carbohydrates: 52.0g, Total Fat: 20.0g, Dietary Fiber: 2.5g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_5adde962116f86",
+        "item_name": "Wood-Fired Garlic Breadsticks with Dip",
+        "category": "Sides & Breads"
+      }
+    },
+    {
+      "chunk_id": "chunk_487ff0f827f008",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Calzones | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Cheesy Stuffed Calzone | Serving Size: 240g\nMacros \u2014 Calories: 580.0 kcal, Protein: 22.0g, Carbohydrates: 64.0g, Total Fat: 26.0g, Dietary Fiber: 3.0g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_487ff0f827f008",
+        "item_name": "Cheesy Stuffed Calzone",
+        "category": "Calzones"
+      }
+    },
+    {
+      "chunk_id": "chunk_a26f32ffb9d026",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Calzones | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chicken Tikka Calzone | Serving Size: 260g\nMacros \u2014 Calories: 620.0 kcal, Protein: 34.0g, Carbohydrates: 65.0g, Total Fat: 25.0g, Dietary Fiber: 3.0g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_a26f32ffb9d026",
+        "item_name": "Chicken Tikka Calzone",
+        "category": "Calzones"
+      }
+    },
+    {
+      "chunk_id": "chunk_112cff3a8b06e3",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Fusion & Meat Pizzas | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Smoky BBQ Chicken Pizza | Serving Size: 310g\nMacros \u2014 Calories: 770.0 kcal, Protein: 36.0g, Carbohydrates: 84.0g, Total Fat: 31.0g, Dietary Fiber: 3.6g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_112cff3a8b06e3",
+        "item_name": "Smoky BBQ Chicken Pizza",
+        "category": "Fusion & Meat Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_8f5f0949b786c9",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Category: Wood-Fired Classics | Source: boom_pizza_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Four Cheese Boom Pizza | Serving Size: 290g\nMacros \u2014 Calories: 790.0 kcal, Protein: 33.0g, Carbohydrates: 76.0g, Total Fat: 39.0g, Dietary Fiber: 3.2g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_8f5f0949b786c9",
+        "item_name": "Four Cheese Boom Pizza",
+        "category": "Wood-Fired Classics"
+      }
+    },
+    {
+      "chunk_id": "chunk_8b5ee63235f47a",
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "restaurant": "Boom Pizza Bangalore",
+      "page_or_section": "Page 1",
+      "doc_modality": "non_tabular",
+      "content": "[Restaurant: Boom Pizza Bangalore | Source: boom_pizza_bangalore_nutrition.pdf (Page 1) | Modality: Non-Tabular Prose]\nBoom Pizza Bengaluru \u2014 Nutritional & Allergen Information Guide\nAuthentic Neapolitan Woodfired Pizzas (10-inch), Stuffed Calzones & Garlic Breads. Hand-crafted slow fermented sourdough crusts with fresh mozzarella and local infusions.\nEnergy Protein Carbohydrat Total Fat Dietary\nItem Name Category Diet Serving Size Allergens\n(kcal) (g) es (g) (g) Fiber (g)\nClassic Margherita Pizza Wood-Fired Classics Veg 260g 610.0 22.0 78.0 23.0 3.5 Gluten, Milk\nPepperoni Boom Pizza Wood-Fired Classics Non-Veg 290g 760.0 31.0 77.0 36.0 3.2 Gluten, Milk\nPesto Paneer Pizza Fusion & Veg Pizzas Veg 300g 740.0 28.0 76.0 36.0 4.2 Gluten, Milk, Nuts\nButter Chicken Pizza Fusion & Meat Pizzas Non-Veg 320g 780.0 38.0 82.0 33.0 3.8 Gluten, Milk\nGhee Roast Chicken Pizza Fusion & Meat Pizzas Non-Veg 320g 820.0 39.0 78.0 39.0 3.5 Gluten, Milk\nGhee Roast Paneer Pizza Fusion & Veg Pizzas Veg 310g 790.0 26.0 79.0 41.0 3.8 Gluten, Milk\nGongura Chicken Pizza Fusion & Meat Pizzas Non-Veg 310g 750.0 37.0 78.0 31.0 4.0 Gluten, Milk\nVeggie Loaded Wood-Fired Pizza Fusion & Veg Pizzas Veg 290g 640.0 23.0 84.0 24.0 5.2 Gluten, Milk\nWood-Fired Garlic Breadsticks with\nSides & Breads Veg 160g 420.0 9.0 52.0 20.0 2.5 Gluten, Milk\nDip\nCheesy Stuffed Calzone Calzones Veg 240g 580.0 22.0 64.0 26.0 3.0 Gluten, Milk\nChicken Tikka Calzone Calzones Non-Veg 260g 620.0 34.0 65.0 25.0 3.0 Gluten, Milk\nSmoky BBQ Chicken Pizza Fusion & Meat Pizzas Non-Veg 310g 770.0 36.0 84.0 31.0 3.6 Gluten, Milk\nFour Cheese Boom Pizza Wood-Fired Classics Veg 290g 790.0 33.0 76.0 39.0 3.2 Gluten, Milk",
+      "metadata": {
+        "chunk_index": 0,
+        "raw_length": 1554
+      }
+    },
+    {
+      "chunk_id": "chunk_a35991a70a99de",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Classic Sourdough Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Margherita 2.0 | Serving Size: 280g\nMacros \u2014 Calories: 680.0 kcal, Protein: 24.0g, Carbohydrates: 86.0g, Total Fat: 26.0g, Dietary Fiber: 4.0g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_a35991a70a99de",
+        "item_name": "Margherita 2.0",
+        "category": "Classic Sourdough Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_2a76e1dcd94c77",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Classic Sourdough Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Marinara | Serving Size: 240g\nMacros \u2014 Calories: 490.0 kcal, Protein: 14.0g, Carbohydrates: 84.0g, Total Fat: 11.0g, Dietary Fiber: 4.0g | Allergens: Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_2a76e1dcd94c77",
+        "item_name": "Marinara",
+        "category": "Classic Sourdough Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_cec90094bc4bf4",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Classic Sourdough Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Quattro Formaggi | Serving Size: 310g\nMacros \u2014 Calories: 840.0 kcal, Protein: 36.0g, Carbohydrates: 82.0g, Total Fat: 40.0g, Dietary Fiber: 3.5g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_cec90094bc4bf4",
+        "item_name": "Quattro Formaggi",
+        "category": "Classic Sourdough Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_edf049ce7a124b",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Classic Sourdough Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Smokey Marzano | Serving Size: 290g\nMacros \u2014 Calories: 710.0 kcal, Protein: 27.0g, Carbohydrates: 84.0g, Total Fat: 29.0g, Dietary Fiber: 4.0g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_edf049ce7a124b",
+        "item_name": "Smokey Marzano",
+        "category": "Classic Sourdough Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_488e38fb4b33a7",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Classic Sourdough Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Shrooms Pizza | Serving Size: 300g\nMacros \u2014 Calories: 720.0 kcal, Protein: 25.0g, Carbohydrates: 85.0g, Total Fat: 31.0g, Dietary Fiber: 5.0g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_488e38fb4b33a7",
+        "item_name": "Shrooms Pizza",
+        "category": "Classic Sourdough Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_175ce8a24fe2a5",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Specialty Meat Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Streaking Pigs Pizza | Serving Size: 320g\nMacros \u2014 Calories: 860.0 kcal, Protein: 38.0g, Carbohydrates: 84.0g, Total Fat: 41.0g, Dietary Fiber: 3.5g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_175ce8a24fe2a5",
+        "item_name": "Streaking Pigs Pizza",
+        "category": "Specialty Meat Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_101f999bd8c6ab",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Specialty Meat Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Diavola Pepperoni Pizza | Serving Size: 310g\nMacros \u2014 Calories: 820.0 kcal, Protein: 34.0g, Carbohydrates: 83.0g, Total Fat: 38.0g, Dietary Fiber: 3.5g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_101f999bd8c6ab",
+        "item_name": "Diavola Pepperoni Pizza",
+        "category": "Specialty Meat Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_c11541629cdfaa",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Specialty Meat Pizzas | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Bird In Hand Pizza | Serving Size: 320g\nMacros \u2014 Calories: 790.0 kcal, Protein: 42.0g, Carbohydrates: 86.0g, Total Fat: 30.0g, Dietary Fiber: 4.0g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_c11541629cdfaa",
+        "item_name": "Bird In Hand Pizza",
+        "category": "Specialty Meat Pizzas"
+      }
+    },
+    {
+      "chunk_id": "chunk_ffe2ac2efaa9e5",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Appetizers & Breads | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Classic Garlic Bread | Serving Size: 140g\nMacros \u2014 Calories: 390.0 kcal, Protein: 8.0g, Carbohydrates: 48.0g, Total Fat: 18.0g, Dietary Fiber: 2.5g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_ffe2ac2efaa9e5",
+        "item_name": "Classic Garlic Bread",
+        "category": "Appetizers & Breads"
+      }
+    },
+    {
+      "chunk_id": "chunk_03eab85d1cdd34",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Appetizers & Breads | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Blue Cheese Bacon Pineapple Garlic Bread | Serving Size: 180g\nMacros \u2014 Calories: 520.0 kcal, Protein: 16.0g, Carbohydrates: 50.0g, Total Fat: 28.0g, Dietary Fiber: 2.5g | Allergens: Gluten, Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_03eab85d1cdd34",
+        "item_name": "Blue Cheese Bacon Pineapple Garlic Bread",
+        "category": "Appetizers & Breads"
+      }
+    },
+    {
+      "chunk_id": "chunk_39c625558e2fe1",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Appetizers & Breads | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Mozzarella Fritta (Fried Mozzarella Sticks) | Serving Size: 160g\nMacros \u2014 Calories: 460.0 kcal, Protein: 19.0g, Carbohydrates: 32.0g, Total Fat: 28.0g, Dietary Fiber: 2.0g | Allergens: Gluten, Milk, Egg | Diet: Veg",
+      "metadata": {
+        "item_id": "item_39c625558e2fe1",
+        "item_name": "Mozzarella Fritta (Fried Mozzarella Sticks)",
+        "category": "Appetizers & Breads"
+      }
+    },
+    {
+      "chunk_id": "chunk_412f9906274ebe",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Shakes & Desserts | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Cookie Monster Shake | Serving Size: 350ml\nMacros \u2014 Calories: 580.0 kcal, Protein: 9.0g, Carbohydrates: 78.0g, Total Fat: 26.0g, Dietary Fiber: 2.0g | Allergens: Milk, Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_412f9906274ebe",
+        "item_name": "Cookie Monster Shake",
+        "category": "Shakes & Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_aa1fc3faf6a368",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Shakes & Desserts | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Big Bang Chocolate Shake | Serving Size: 350ml\nMacros \u2014 Calories: 640.0 kcal, Protein: 11.0g, Carbohydrates: 86.0g, Total Fat: 28.0g, Dietary Fiber: 3.0g | Allergens: Milk, Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_aa1fc3faf6a368",
+        "item_name": "Big Bang Chocolate Shake",
+        "category": "Shakes & Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_ac6062c28ac5d2",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Shakes & Desserts | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Brik Oven Banoffee Pie | Serving Size: 160g\nMacros \u2014 Calories: 510.0 kcal, Protein: 6.0g, Carbohydrates: 64.0g, Total Fat: 26.0g, Dietary Fiber: 2.5g | Allergens: Milk, Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_ac6062c28ac5d2",
+        "item_name": "Brik Oven Banoffee Pie",
+        "category": "Shakes & Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_afd547da360b41",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Shakes & Desserts | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Classic Tiramisu | Serving Size: 150g\nMacros \u2014 Calories: 440.0 kcal, Protein: 7.0g, Carbohydrates: 42.0g, Total Fat: 27.0g, Dietary Fiber: 1.5g | Allergens: Milk, Gluten, Egg | Diet: Veg",
+      "metadata": {
+        "item_id": "item_afd547da360b41",
+        "item_name": "Classic Tiramisu",
+        "category": "Shakes & Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_9a45b3e9dffb68",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Category: Shakes & Desserts | Source: brik_oven_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Lemon Ricotta Cake | Serving Size: 140g\nMacros \u2014 Calories: 410.0 kcal, Protein: 8.0g, Carbohydrates: 46.0g, Total Fat: 21.0g, Dietary Fiber: 1.8g | Allergens: Milk, Gluten, Egg | Diet: Veg",
+      "metadata": {
+        "item_id": "item_9a45b3e9dffb68",
+        "item_name": "Lemon Ricotta Cake",
+        "category": "Shakes & Desserts"
+      }
+    },
+    {
+      "chunk_id": "chunk_6a7d51d970bb2a",
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "restaurant": "Brik Oven Bangalore",
+      "page_or_section": "Page 1",
+      "doc_modality": "non_tabular",
+      "content": "[Restaurant: Brik Oven Bangalore | Source: brik_oven_bangalore_nutrition.pdf (Page 1) | Modality: Non-Tabular Prose]\nBrik Oven Bengaluru \u2014 Nutritional & Allergen Information Guide\nArtisanal Wood-Fired Sourdough Pizzas, Mozzarella Fritta, Shakes & Desserts. Per-Serve Macro Estimates based on authentic Neapolitan ingredients and standard portion weights.\nEnergy Protein Carbohydrat Total Fat Dietary\nItem Name Category Diet Serving Size Allergens\n(kcal) (g) es (g) (g) Fiber (g)\nClassic Sourdough\nMargherita 2.0 Veg 280g 680.0 24.0 86.0 26.0 4.0 Gluten, Milk\nPizzas\nClassic Sourdough\nMarinara Veg 240g 490.0 14.0 84.0 11.0 4.0 Gluten\nPizzas\nClassic Sourdough\nQuattro Formaggi Veg 310g 840.0 36.0 82.0 40.0 3.5 Gluten, Milk\nPizzas\nClassic Sourdough\nSmokey Marzano Veg 290g 710.0 27.0 84.0 29.0 4.0 Gluten, Milk\nPizzas\nClassic Sourdough\nShrooms Pizza Veg 300g 720.0 25.0 85.0 31.0 5.0 Gluten, Milk\nPizzas\nStreaking Pigs Pizza Specialty Meat Pizzas Non-Veg 320g 860.0 38.0 84.0 41.0 3.5 Gluten, Milk\nDiavola Pepperoni Pizza Specialty Meat Pizzas Non-Veg 310g 820.0 34.0 83.0 38.0 3.5 Gluten, Milk\nBird In Hand Pizza Specialty Meat Pizzas Non-Veg 320g 790.0 42.0 86.0 30.0 4.0 Gluten, Milk\nClassic Garlic Bread Appetizers & Breads Veg 140g 390.0 8.0 48.0 18.0 2.5 Gluten, Milk\nBlue Cheese Bacon Pineapple\nAppetizers & Breads Non-Veg 180g 520.0 16.0 50.0 28.0 2.5 Gluten, Milk\nGarlic Bread\nMozzarella Fritta (Fried Mozzarella\nAppetizers & Breads Veg 160g 460.0 19.0 32.0 28.0 2.0 Gluten, Milk, Egg\nSticks)\nCookie Monster Shake Shakes & Desserts Veg 350ml 580.0 9.0 78.0 26.0 2.0 Milk, Gluten\nBig Bang Chocolate Shake Shakes & Desserts Veg 350ml 640.0 11.0 86.0 28.0 3.0 Milk, Gluten\nBrik Oven Banoffee Pie Shakes & Desserts Veg 160g 510.0 6.0 64.0 26.0 2.5 Milk, Gluten\nClassic Tiramisu Shakes & Desserts Veg 150g 440.0 7.0 42.0 27.0 1.5 Milk, Gluten, Egg\nLemon Ricotta Cake Shakes & Desserts Veg 140g 410.0 8.0 46.0 21.0 1.8 Milk, Gluten, Egg",
+      "metadata": {
+        "chunk_index": 0,
+        "raw_length": 1821
+      }
+    },
     {
       "chunk_id": "chunk_38220c2975a6de",
       "source_file": "burger_king_india_nutrition_feb_2026.pdf",
@@ -8133,6 +9241,200 @@
       "metadata": {
         "chunk_index": 0,
         "raw_length": 1936
+      }
+    },
+    {
+      "chunk_id": "chunk_7286674443f236",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Signature Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Death By Chocolate (DBC) | Serving Size: 420g\nMacros \u2014 Calories: 840.0 kcal, Protein: 14.5g, Carbohydrates: 108.0g, Total Fat: 42.0g, Dietary Fiber: 4.2g | Allergens: Milk, Gluten, Peanuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_7286674443f236",
+        "item_name": "Death By Chocolate (DBC)",
+        "category": "Signature Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_ee1b36b8a1e834",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fudge Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Hot Chocolate Fudge (HCF) | Serving Size: 280g\nMacros \u2014 Calories: 560.0 kcal, Protein: 9.2g, Carbohydrates: 74.0g, Total Fat: 27.0g, Dietary Fiber: 2.5g | Allergens: Milk, Peanuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_ee1b36b8a1e834",
+        "item_name": "Hot Chocolate Fudge (HCF)",
+        "category": "Fudge Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_2e9f8a80590452",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fudge Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Cake Fudge | Serving Size: 300g\nMacros \u2014 Calories: 620.0 kcal, Protein: 10.0g, Carbohydrates: 84.0g, Total Fat: 29.0g, Dietary Fiber: 2.8g | Allergens: Milk, Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_2e9f8a80590452",
+        "item_name": "Cake Fudge",
+        "category": "Fudge Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_1c7dac76607297",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fudge Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Brown Bomb (Brownie Fudge Sundae) | Serving Size: 340g\nMacros \u2014 Calories: 720.0 kcal, Protein: 11.5g, Carbohydrates: 92.0g, Total Fat: 35.0g, Dietary Fiber: 3.5g | Allergens: Milk, Gluten, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_1c7dac76607297",
+        "item_name": "Brown Bomb (Brownie Fudge Sundae)",
+        "category": "Fudge Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_9e41aec082761a",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fudge Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Cake A Mocha | Serving Size: 300g\nMacros \u2014 Calories: 610.0 kcal, Protein: 9.8g, Carbohydrates: 82.0g, Total Fat: 28.0g, Dietary Fiber: 2.6g | Allergens: Milk, Gluten, Peanuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_9e41aec082761a",
+        "item_name": "Cake A Mocha",
+        "category": "Fudge Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_1941349f044b2a",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Signature Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Trilogy Sundae | Serving Size: 350g\nMacros \u2014 Calories: 660.0 kcal, Protein: 10.5g, Carbohydrates: 90.0g, Total Fat: 30.0g, Dietary Fiber: 2.5g | Allergens: Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_1941349f044b2a",
+        "item_name": "Trilogy Sundae",
+        "category": "Signature Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_a4fe0965fd1618",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fruit Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Fruit Jackpot | Serving Size: 320g\nMacros \u2014 Calories: 390.0 kcal, Protein: 6.2g, Carbohydrates: 76.0g, Total Fat: 9.0g, Dietary Fiber: 3.8g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_a4fe0965fd1618",
+        "item_name": "Fruit Jackpot",
+        "category": "Fruit Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_287eeb7350acd2",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fudge Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Almond Fudge Sundae | Serving Size: 290g\nMacros \u2014 Calories: 610.0 kcal, Protein: 12.0g, Carbohydrates: 70.0g, Total Fat: 32.0g, Dietary Fiber: 3.2g | Allergens: Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_287eeb7350acd2",
+        "item_name": "Almond Fudge Sundae",
+        "category": "Fudge Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_d6a6a3a8f5165a",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Classic Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Butterscotch Sundae | Serving Size: 260g\nMacros \u2014 Calories: 520.0 kcal, Protein: 7.5g, Carbohydrates: 72.0g, Total Fat: 23.0g, Dietary Fiber: 1.8g | Allergens: Milk, Nuts | Diet: Veg",
+      "metadata": {
+        "item_id": "item_d6a6a3a8f5165a",
+        "item_name": "Butterscotch Sundae",
+        "category": "Classic Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_adc1953fdc42f2",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Classic Scoops | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Vanilla Scoop with Hot Fudge | Serving Size: 180g\nMacros \u2014 Calories: 380.0 kcal, Protein: 5.8g, Carbohydrates: 50.0g, Total Fat: 18.0g, Dietary Fiber: 1.5g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_adc1953fdc42f2",
+        "item_name": "Vanilla Scoop with Hot Fudge",
+        "category": "Classic Scoops"
+      }
+    },
+    {
+      "chunk_id": "chunk_2af6c0a63ee348",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Thick Shakes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chocolate Thick Shake | Serving Size: 350ml\nMacros \u2014 Calories: 490.0 kcal, Protein: 11.0g, Carbohydrates: 68.0g, Total Fat: 20.0g, Dietary Fiber: 2.0g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_2af6c0a63ee348",
+        "item_name": "Chocolate Thick Shake",
+        "category": "Thick Shakes"
+      }
+    },
+    {
+      "chunk_id": "chunk_8987ab78e473fd",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Thick Shakes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Chocolate Malt Thick Shake | Serving Size: 350ml\nMacros \u2014 Calories: 520.0 kcal, Protein: 12.0g, Carbohydrates: 74.0g, Total Fat: 20.0g, Dietary Fiber: 2.0g | Allergens: Milk, Gluten | Diet: Veg",
+      "metadata": {
+        "item_id": "item_8987ab78e473fd",
+        "item_name": "Chocolate Malt Thick Shake",
+        "category": "Thick Shakes"
+      }
+    },
+    {
+      "chunk_id": "chunk_2d9d7c7283ba12",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fruit Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Strawberry Sundae | Serving Size: 250g\nMacros \u2014 Calories: 410.0 kcal, Protein: 6.0g, Carbohydrates: 68.0g, Total Fat: 14.0g, Dietary Fiber: 2.2g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_2d9d7c7283ba12",
+        "item_name": "Strawberry Sundae",
+        "category": "Fruit Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_2158d318056591",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Category: Fruit Sundaes | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Mango Sundae (Seasonal) | Serving Size: 260g\nMacros \u2014 Calories: 430.0 kcal, Protein: 6.2g, Carbohydrates: 72.0g, Total Fat: 14.0g, Dietary Fiber: 2.5g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_2158d318056591",
+        "item_name": "Mango Sundae (Seasonal)",
+        "category": "Fruit Sundaes"
+      }
+    },
+    {
+      "chunk_id": "chunk_08cf53751b9621",
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "page_or_section": "Page 1",
+      "doc_modality": "non_tabular",
+      "content": "[Restaurant: Corner House Ice Creams Bangalore | Source: corner_house_ice_creams_bangalore_nutrition.pdf (Page 1) | Modality: Non-Tabular Prose]\nCorner House Ice Cream Bengaluru \u2014 Nutritional & Allergen Information Guide\nBangalore's Iconic Ice Cream Sundaes, Hot Fudge Specialties, Fruit Sundaes & Thick Shakes. Accurate nutritional breakdowns per standard serving weight.\nEnergy Protein Carbohydrat Total Fat Dietary\nItem Name Category Diet Serving Size Allergens\n(kcal) (g) es (g) (g) Fiber (g)\nDeath By Chocolate (DBC) Signature Sundaes Veg 420g 840.0 14.5 108.0 42.0 4.2 Milk, Gluten, Peanuts\nHot Chocolate Fudge (HCF) Fudge Sundaes Veg 280g 560.0 9.2 74.0 27.0 2.5 Milk, Peanuts\nCake Fudge Fudge Sundaes Veg 300g 620.0 10.0 84.0 29.0 2.8 Milk, Gluten\nBrown Bomb (Brownie Fudge\nFudge Sundaes Veg 340g 720.0 11.5 92.0 35.0 3.5 Milk, Gluten, Nuts\nSundae)\nCake A Mocha Fudge Sundaes Veg 300g 610.0 9.8 82.0 28.0 2.6 Milk, Gluten, Peanuts\nTrilogy Sundae Signature Sundaes Veg 350g 660.0 10.5 90.0 30.0 2.5 Milk, Nuts\nFruit Jackpot Fruit Sundaes Veg 320g 390.0 6.2 76.0 9.0 3.8 Milk\nAlmond Fudge Sundae Fudge Sundaes Veg 290g 610.0 12.0 70.0 32.0 3.2 Milk, Nuts\nButterscotch Sundae Classic Sundaes Veg 260g 520.0 7.5 72.0 23.0 1.8 Milk, Nuts\nVanilla Scoop with Hot Fudge Classic Scoops Veg 180g 380.0 5.8 50.0 18.0 1.5 Milk\nChocolate Thick Shake Thick Shakes Veg 350ml 490.0 11.0 68.0 20.0 2.0 Milk\nChocolate Malt Thick Shake Thick Shakes Veg 350ml 520.0 12.0 74.0 20.0 2.0 Milk, Gluten\nStrawberry Sundae Fruit Sundaes Veg 250g 410.0 6.0 68.0 14.0 2.2 Milk\nMango Sundae (Seasonal) Fruit Sundaes Veg 260g 430.0 6.2 72.0 14.0 2.5 Milk",
+      "metadata": {
+        "chunk_index": 0,
+        "raw_length": 1486
       }
     },
     {
@@ -33730,6 +35032,213 @@
       }
     },
     {
+      "chunk_id": "chunk_82bbf1cf33d04f",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Chicken Wings | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Naked Crispy Wings (6 pcs with Blue Cheese Dip) | Serving Size: 220g\nMacros \u2014 Calories: 460.0 kcal, Protein: 38.0g, Carbohydrates: 2.0g, Total Fat: 32.0g, Dietary Fiber: 0.0g | Allergens: Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_82bbf1cf33d04f",
+        "item_name": "Naked Crispy Wings (6 pcs with Blue Cheese Dip)",
+        "category": "Chicken Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_5363d119ee47b9",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Chicken Wings | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Spicy Buffalo Garlic Wings (6 pcs) | Serving Size: 240g\nMacros \u2014 Calories: 510.0 kcal, Protein: 39.0g, Carbohydrates: 5.0g, Total Fat: 36.0g, Dietary Fiber: 0.5g | Allergens: Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_5363d119ee47b9",
+        "item_name": "Spicy Buffalo Garlic Wings (6 pcs)",
+        "category": "Chicken Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_41da17e3fd65f1",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Chicken Wings | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Flamin\u2019 Jalape\u00f1o Wings (6 pcs) | Serving Size: 240g\nMacros \u2014 Calories: 490.0 kcal, Protein: 38.0g, Carbohydrates: 6.0g, Total Fat: 34.0g, Dietary Fiber: 0.8g | Allergens: Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_41da17e3fd65f1",
+        "item_name": "Flamin\u2019 Jalape\u00f1o Wings (6 pcs)",
+        "category": "Chicken Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_8ac728be8c8b06",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Chicken Wings | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Canadian Peanut Butter Chicken Wings (6 pcs) | Serving Size: 250g\nMacros \u2014 Calories: 590.0 kcal, Protein: 43.0g, Carbohydrates: 14.0g, Total Fat: 39.0g, Dietary Fiber: 2.0g | Allergens: Peanuts | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_8ac728be8c8b06",
+        "item_name": "Canadian Peanut Butter Chicken Wings (6 pcs)",
+        "category": "Chicken Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_e310e77e86d4d7",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Chicken Wings | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Parisian Mustard Jaggery Wings (6 pcs) | Serving Size: 240g\nMacros \u2014 Calories: 480.0 kcal, Protein: 38.0g, Carbohydrates: 16.0g, Total Fat: 29.0g, Dietary Fiber: 0.6g | Allergens: Mustard | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_e310e77e86d4d7",
+        "item_name": "Parisian Mustard Jaggery Wings (6 pcs)",
+        "category": "Chicken Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_5a2582a980af1e",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Chicken Wings | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Sour Cream & Onion Wings (6 pcs) | Serving Size: 230g\nMacros \u2014 Calories: 480.0 kcal, Protein: 39.0g, Carbohydrates: 5.0g, Total Fat: 33.0g, Dietary Fiber: 0.5g | Allergens: Milk | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_5a2582a980af1e",
+        "item_name": "Sour Cream & Onion Wings (6 pcs)",
+        "category": "Chicken Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_ae239ab31b8f3b",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Chicken Wings | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: BBQ Smoked Chicken Wings (6 pcs) | Serving Size: 240g\nMacros \u2014 Calories: 520.0 kcal, Protein: 38.0g, Carbohydrates: 20.0g, Total Fat: 31.0g, Dietary Fiber: 0.6g | Allergens: None | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_ae239ab31b8f3b",
+        "item_name": "BBQ Smoked Chicken Wings (6 pcs)",
+        "category": "Chicken Wings"
+      }
+    },
+    {
+      "chunk_id": "chunk_44828d5fe8ce0e",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Burgers & Mains | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: The Motherclucker Burger (Crisp Fried Chicken) | Serving Size: 280g\nMacros \u2014 Calories: 740.0 kcal, Protein: 38.0g, Carbohydrates: 62.0g, Total Fat: 37.0g, Dietary Fiber: 3.5g | Allergens: Gluten, Milk, Egg | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_44828d5fe8ce0e",
+        "item_name": "The Motherclucker Burger (Crisp Fried Chicken)",
+        "category": "Burgers & Mains"
+      }
+    },
+    {
+      "chunk_id": "chunk_787b6571c49654",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Burgers & Mains | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Juicy Lucy Beef Burger (Cheese Stuffed Patty) | Serving Size: 310g\nMacros \u2014 Calories: 840.0 kcal, Protein: 48.0g, Carbohydrates: 52.0g, Total Fat: 48.0g, Dietary Fiber: 3.0g | Allergens: Gluten, Milk, Sesame | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_787b6571c49654",
+        "item_name": "Juicy Lucy Beef Burger (Cheese Stuffed Patty)",
+        "category": "Burgers & Mains"
+      }
+    },
+    {
+      "chunk_id": "chunk_431ae8fafac10c",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Burgers & Mains | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Fried Paneer Burger with Buffalo Mayo | Serving Size: 270g\nMacros \u2014 Calories: 680.0 kcal, Protein: 24.0g, Carbohydrates: 58.0g, Total Fat: 39.0g, Dietary Fiber: 3.2g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_431ae8fafac10c",
+        "item_name": "Fried Paneer Burger with Buffalo Mayo",
+        "category": "Burgers & Mains"
+      }
+    },
+    {
+      "chunk_id": "chunk_8ee9d8a3c00076",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Burgers & Mains | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Potato & Sweet Corn Burger with Salsa | Serving Size: 240g\nMacros \u2014 Calories: 510.0 kcal, Protein: 11.0g, Carbohydrates: 64.0g, Total Fat: 22.0g, Dietary Fiber: 4.5g | Allergens: Gluten, Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_8ee9d8a3c00076",
+        "item_name": "Potato & Sweet Corn Burger with Salsa",
+        "category": "Burgers & Mains"
+      }
+    },
+    {
+      "chunk_id": "chunk_dd8595b79f7a77",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Pub Sides & Bites | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Cheesy Garlic Fries (Melted Cheddar Sauce) | Serving Size: 220g\nMacros \u2014 Calories: 490.0 kcal, Protein: 8.0g, Carbohydrates: 54.0g, Total Fat: 27.0g, Dietary Fiber: 4.0g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_dd8595b79f7a77",
+        "item_name": "Cheesy Garlic Fries (Melted Cheddar Sauce)",
+        "category": "Pub Sides & Bites"
+      }
+    },
+    {
+      "chunk_id": "chunk_18356efb97e9a1",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Pub Sides & Bites | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Bacon Wrapped Sausages (6 pcs) | Serving Size: 180g\nMacros \u2014 Calories: 440.0 kcal, Protein: 26.0g, Carbohydrates: 3.0g, Total Fat: 35.0g, Dietary Fiber: 0.2g | Allergens: None | Diet: Non-Veg",
+      "metadata": {
+        "item_id": "item_18356efb97e9a1",
+        "item_name": "Bacon Wrapped Sausages (6 pcs)",
+        "category": "Pub Sides & Bites"
+      }
+    },
+    {
+      "chunk_id": "chunk_48f8cc2e01c457",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Pub Sides & Bites | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Loaded Chilli Cheese Nachos | Serving Size: 260g\nMacros \u2014 Calories: 580.0 kcal, Protein: 14.0g, Carbohydrates: 66.0g, Total Fat: 29.0g, Dietary Fiber: 6.5g | Allergens: Milk | Diet: Veg",
+      "metadata": {
+        "item_id": "item_48f8cc2e01c457",
+        "item_name": "Loaded Chilli Cheese Nachos",
+        "category": "Pub Sides & Bites"
+      }
+    },
+    {
+      "chunk_id": "chunk_c5cd280b805010",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "content": "[Restaurant: Plan B Bangalore | Category: Pub Sides & Bites | Source: plan_b_bangalore_nutrition.pdf (Page 1, Table 1) | Modality: Tabular Row]\nMenu Item: Crispy American Corn Kernels | Serving Size: 160g\nMacros \u2014 Calories: 320.0 kcal, Protein: 6.0g, Carbohydrates: 44.0g, Total Fat: 13.0g, Dietary Fiber: 4.8g | Allergens: None | Diet: Veg",
+      "metadata": {
+        "item_id": "item_c5cd280b805010",
+        "item_name": "Crispy American Corn Kernels",
+        "category": "Pub Sides & Bites"
+      }
+    },
+    {
+      "chunk_id": "chunk_2b9048c5414075",
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "restaurant": "Plan B Bangalore",
+      "page_or_section": "Page 1",
+      "doc_modality": "non_tabular",
+      "content": "[Restaurant: Plan B Bangalore | Source: plan_b_bangalore_nutrition.pdf (Page 1) | Modality: Non-Tabular Prose]\nPlan B Bengaluru \u2014 Nutritional & Allergen Information Guide\nFamous American Pub Grub, House of Wings, Stuffed Burgers & Loaded Platters. Caloric and macronutrient breakdowns per serve.\nEnergy Protein Carbohydrat Total Fat Dietary\nItem Name Category Diet Serving Size Allergens\n(kcal) (g) es (g) (g) Fiber (g)\nNaked Crispy Wings (6 pcs with\nChicken Wings Non-Veg 220g 460.0 38.0 2.0 32.0 0.0 Milk\nBlue Cheese Dip)\nSpicy Buffalo Garlic Wings (6 pcs) Chicken Wings Non-Veg 240g 510.0 39.0 5.0 36.0 0.5 Milk\nFlamin\u2019 Jalape\u00f1o Wings (6 pcs) Chicken Wings Non-Veg 240g 490.0 38.0 6.0 34.0 0.8 Milk\nCanadian Peanut Butter Chicken\nChicken Wings Non-Veg 250g 590.0 43.0 14.0 39.0 2.0 Peanuts\nWings (6 pcs)\nParisian Mustard Jaggery Wings (6\nChicken Wings Non-Veg 240g 480.0 38.0 16.0 29.0 0.6 Mustard\npcs)\nSour Cream & Onion Wings (6 pcs) Chicken Wings Non-Veg 230g 480.0 39.0 5.0 33.0 0.5 Milk\nBBQ Smoked Chicken Wings (6\nChicken Wings Non-Veg 240g 520.0 38.0 20.0 31.0 0.6 None\npcs)\nThe Motherclucker Burger (Crisp\nBurgers & Mains Non-Veg 280g 740.0 38.0 62.0 37.0 3.5 Gluten, Milk, Egg\nFried Chicken)\nJuicy Lucy Beef Burger (Cheese\nBurgers & Mains Non-Veg 310g 840.0 48.0 52.0 48.0 3.0 Gluten, Milk, Sesame\nStuffed Patty)\nFried Paneer Burger with Buffalo\nBurgers & Mains Veg 270g 680.0 24.0 58.0 39.0 3.2 Gluten, Milk\nMayo\nPotato & Sweet Corn Burger with\nBurgers & Mains Veg 240g 510.0 11.0 64.0 22.0 4.5 Gluten, Milk\nSalsa\nCheesy Garlic Fries (Melted\nPub Sides & Bites Veg 220g 490.0 8.0 54.0 27.0 4.0 Milk\nCheddar Sauce)\nBacon Wrapped Sausages (6 pcs) Pub Sides & Bites Non-Veg 180g 440.0 26.0 3.0 35.0 0.2 None\nLoaded Chilli Cheese Nachos Pub Sides & Bites Veg 260g 580.0 14.0 66.0 29.0 6.5 Milk\nCrispy American Corn Kernels Pub Sides & Bites Veg 160g 320.0 6.0 44.0 13.0 4.8 None",
+      "metadata": {
+        "chunk_index": 0,
+        "raw_length": 1775
+      }
+    },
+    {
       "chunk_id": "chunk_bd09c4711e037e",
       "source_file": "subway_india_december_2024_v248.pdf",
       "restaurant": "Subway India",
@@ -39096,6 +40605,1710 @@
     }
   ],
   "items": [
+    {
+      "item_id": "item_1395963259899a",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Arabian Mandi",
+      "item_name": "Chicken Mandi (Half Portion)",
+      "variant_or_size": "450g",
+      "calories_kcal": 740.0,
+      "protein_g": 42.0,
+      "carbs_g": 85.0,
+      "fat_g": 25.0,
+      "fiber_g": 3.5,
+      "serving_size": "450g",
+      "allergens": [
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chicken Mandi (Half Portion) | Arabian Mandi | Non-Veg | 450g | 740.0 | 42.0 | 85.0 | 25.0 | 3.5 | Nuts"
+    },
+    {
+      "item_id": "item_dc6c4bad807208",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Arabian Mandi",
+      "item_name": "Chicken Mandi (Full Portion)",
+      "variant_or_size": "900g",
+      "calories_kcal": 1480.0,
+      "protein_g": 84.0,
+      "carbs_g": 170.0,
+      "fat_g": 50.0,
+      "fiber_g": 7.0,
+      "serving_size": "900g",
+      "allergens": [
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chicken Mandi (Full Portion) | Arabian Mandi | Non-Veg | 900g | 1480.0 | 84.0 | 170.0 | 50.0 | 7.0 | Nuts"
+    },
+    {
+      "item_id": "item_ed8ccd51461937",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Arabian Mandi",
+      "item_name": "Mutton Mandi (Half Portion)",
+      "variant_or_size": "500g",
+      "calories_kcal": 880.0,
+      "protein_g": 46.0,
+      "carbs_g": 86.0,
+      "fat_g": 38.0,
+      "fiber_g": 3.2,
+      "serving_size": "500g",
+      "allergens": [
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Mutton Mandi (Half Portion) | Arabian Mandi | Non-Veg | 500g | 880.0 | 46.0 | 86.0 | 38.0 | 3.2 | Nuts"
+    },
+    {
+      "item_id": "item_914a043e7d1bf3",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Arabian Mandi",
+      "item_name": "Fish Mandi (Grilled Kingfish)",
+      "variant_or_size": "460g",
+      "calories_kcal": 690.0,
+      "protein_g": 44.0,
+      "carbs_g": 84.0,
+      "fat_g": 19.0,
+      "fiber_g": 3.0,
+      "serving_size": "460g",
+      "allergens": [
+        "Fish",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Fish Mandi (Grilled Kingfish) | Arabian Mandi | Non-Veg | 460g | 690.0 | 44.0 | 84.0 | 19.0 | 3.0 | Fish, Nuts"
+    },
+    {
+      "item_id": "item_b7da21e76d813a",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Arabian Mandi",
+      "item_name": "Special Mixed Arabic Mandi Platter",
+      "variant_or_size": "1100g",
+      "calories_kcal": 1820.0,
+      "protein_g": 110.0,
+      "carbs_g": 190.0,
+      "fat_g": 68.0,
+      "fiber_g": 8.0,
+      "serving_size": "1100g",
+      "allergens": [
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Special Mixed Arabic Mandi Platter | Arabian Mandi | Non-Veg | 1100g | 1820.0 | 110.0 | 190.0 | 68.0 | 8.0 | Nuts"
+    },
+    {
+      "item_id": "item_ccc7eaca7c8b39",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Charcoal Grills",
+      "item_name": "Charcoal Grilled BBQ Chicken (Half)",
+      "variant_or_size": "350g",
+      "calories_kcal": 540.0,
+      "protein_g": 62.0,
+      "carbs_g": 8.0,
+      "fat_g": 28.0,
+      "fiber_g": 1.5,
+      "serving_size": "350g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Charcoal Grilled BBQ Chicken (Half) | Charcoal Grills | Non-Veg | 350g | 540.0 | 62.0 | 8.0 | 28.0 | 1.5 | None"
+    },
+    {
+      "item_id": "item_41f4eb4dc00943",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Charcoal Grills",
+      "item_name": "Charcoal Grilled BBQ Chicken (Full)",
+      "variant_or_size": "700g",
+      "calories_kcal": 1080.0,
+      "protein_g": 124.0,
+      "carbs_g": 16.0,
+      "fat_g": 56.0,
+      "fiber_g": 3.0,
+      "serving_size": "700g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Charcoal Grilled BBQ Chicken (Full) | Charcoal Grills | Non-Veg | 700g | 1080.0 | 124.0 | 16.0 | 56.0 | 3.0 | None"
+    },
+    {
+      "item_id": "item_411ccfe652952f",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Shawarma & Wraps",
+      "item_name": "Arabian Chicken Shawarma Roll",
+      "variant_or_size": "220g",
+      "calories_kcal": 480.0,
+      "protein_g": 28.0,
+      "carbs_g": 44.0,
+      "fat_g": 21.0,
+      "fiber_g": 2.5,
+      "serving_size": "220g",
+      "allergens": [
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Arabian Chicken Shawarma Roll | Shawarma & Wraps | Non-Veg | 220g | 480.0 | 28.0 | 44.0 | 21.0 | 2.5 | Gluten"
+    },
+    {
+      "item_id": "item_a7d383f63da314",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Shawarma & Wraps",
+      "item_name": "Special BBQ Chicken Wrap",
+      "variant_or_size": "240g",
+      "calories_kcal": 510.0,
+      "protein_g": 29.0,
+      "carbs_g": 48.0,
+      "fat_g": 22.0,
+      "fiber_g": 2.5,
+      "serving_size": "240g",
+      "allergens": [
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Special BBQ Chicken Wrap | Shawarma & Wraps | Non-Veg | 240g | 510.0 | 29.0 | 48.0 | 22.0 | 2.5 | Gluten"
+    },
+    {
+      "item_id": "item_7bab5bcfc4171c",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Starters & Wings",
+      "item_name": "Spicy Chicken Wings (6 pcs)",
+      "variant_or_size": "200g",
+      "calories_kcal": 470.0,
+      "protein_g": 29.0,
+      "carbs_g": 18.0,
+      "fat_g": 31.0,
+      "fiber_g": 1.2,
+      "serving_size": "200g",
+      "allergens": [
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Spicy Chicken Wings (6 pcs) | Starters & Wings | Non-Veg | 200g | 470.0 | 29.0 | 18.0 | 31.0 | 1.2 | Gluten"
+    },
+    {
+      "item_id": "item_0393372902d167",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Tandoori Kebabs",
+      "item_name": "Chicken Tikka Kebab (6 pcs)",
+      "variant_or_size": "180g",
+      "calories_kcal": 290.0,
+      "protein_g": 36.0,
+      "carbs_g": 6.0,
+      "fat_g": 13.0,
+      "fiber_g": 1.5,
+      "serving_size": "180g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chicken Tikka Kebab (6 pcs) | Tandoori Kebabs | Non-Veg | 180g | 290.0 | 36.0 | 6.0 | 13.0 | 1.5 | Milk"
+    },
+    {
+      "item_id": "item_c5180f0e032e0f",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Tandoori Kebabs",
+      "item_name": "Mutton Seekh Kebab (2 Skewers)",
+      "variant_or_size": "160g",
+      "calories_kcal": 340.0,
+      "protein_g": 26.0,
+      "carbs_g": 4.0,
+      "fat_g": 24.0,
+      "fiber_g": 1.0,
+      "serving_size": "160g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Mutton Seekh Kebab (2 Skewers) | Tandoori Kebabs | Non-Veg | 160g | 340.0 | 26.0 | 4.0 | 24.0 | 1.0 | None"
+    },
+    {
+      "item_id": "item_21a81473fa48fa",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Dips & Sides",
+      "item_name": "Fresh Toum Garlic Dip (Extra)",
+      "variant_or_size": "60g",
+      "calories_kcal": 190.0,
+      "protein_g": 1.0,
+      "carbs_g": 3.0,
+      "fat_g": 20.0,
+      "fiber_g": 0.2,
+      "serving_size": "60g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Fresh Toum Garlic Dip (Extra) | Dips & Sides | Veg | 60g | 190.0 | 1.0 | 3.0 | 20.0 | 0.2 | None"
+    },
+    {
+      "item_id": "item_5edce9e1db7c54",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Beverages",
+      "item_name": "Green Apple Mojito",
+      "variant_or_size": "300ml",
+      "calories_kcal": 140.0,
+      "protein_g": 0.2,
+      "carbs_g": 35.0,
+      "fat_g": 0.0,
+      "fiber_g": 0.5,
+      "serving_size": "300ml",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Green Apple Mojito | Beverages | Veg | 300ml | 140.0 | 0.2 | 35.0 | 0.0 | 0.5 | None"
+    },
+    {
+      "item_id": "item_225afa2dc76cce",
+      "restaurant": "Al Daaz Bangalore",
+      "category": "Desserts",
+      "item_name": "Chocolate Fantasy Sundae",
+      "variant_or_size": "180g",
+      "calories_kcal": 420.0,
+      "protein_g": 6.5,
+      "carbs_g": 56.0,
+      "fat_g": 19.0,
+      "fiber_g": 2.0,
+      "serving_size": "180g",
+      "allergens": [
+        "Milk",
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "al_daaz_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chocolate Fantasy Sundae | Desserts | Veg | 180g | 420.0 | 6.5 | 56.0 | 19.0 | 2.0 | Milk, Gluten"
+    },
+    {
+      "item_id": "item_fbab6d4cb1632b",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Dosas & Crepes",
+      "item_name": "Ghee Roast Masala Dosa with Chutneys & Sambar",
+      "variant_or_size": "220g",
+      "calories_kcal": 420.0,
+      "protein_g": 7.5,
+      "carbs_g": 58.0,
+      "fat_g": 18.0,
+      "fiber_g": 4.0,
+      "serving_size": "220g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Ghee Roast Masala Dosa with Chutneys & Sambar | Dosas & Crepes | Veg | 220g | 420.0 | 7.5 | 58.0 | 18.0 | 4.0 | Milk"
+    },
+    {
+      "item_id": "item_178823eaf680ae",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Dosas & Crepes",
+      "item_name": "Plain Ghee Roast Dosa with Chutneys",
+      "variant_or_size": "150g",
+      "calories_kcal": 340.0,
+      "protein_g": 5.8,
+      "carbs_g": 48.0,
+      "fat_g": 14.0,
+      "fiber_g": 2.5,
+      "serving_size": "150g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Plain Ghee Roast Dosa with Chutneys | Dosas & Crepes | Veg | 150g | 340.0 | 5.8 | 48.0 | 14.0 | 2.5 | Milk"
+    },
+    {
+      "item_id": "item_70bfe4a416b52c",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Dosas & Crepes",
+      "item_name": "Open Butter Masala Dosa with Podi",
+      "variant_or_size": "240g",
+      "calories_kcal": 480.0,
+      "protein_g": 8.2,
+      "carbs_g": 60.0,
+      "fat_g": 23.0,
+      "fiber_g": 4.5,
+      "serving_size": "240g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Open Butter Masala Dosa with Podi | Dosas & Crepes | Veg | 240g | 480.0 | 8.2 | 60.0 | 23.0 | 4.5 | Milk"
+    },
+    {
+      "item_id": "item_aa52727a8c7094",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Dosas & Crepes",
+      "item_name": "Set Dosa with Saagu (3 Spongy Dosas)",
+      "variant_or_size": "260g",
+      "calories_kcal": 390.0,
+      "protein_g": 8.5,
+      "carbs_g": 66.0,
+      "fat_g": 10.5,
+      "fiber_g": 5.0,
+      "serving_size": "260g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Set Dosa with Saagu (3 Spongy Dosas) | Dosas & Crepes | Veg | 260g | 390.0 | 8.5 | 66.0 | 10.5 | 5.0 | None"
+    },
+    {
+      "item_id": "item_aa68db161c128f",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Dosas & Crepes",
+      "item_name": "Rava Masala Dosa with Potato Palya",
+      "variant_or_size": "210g",
+      "calories_kcal": 380.0,
+      "protein_g": 7.2,
+      "carbs_g": 56.0,
+      "fat_g": 13.5,
+      "fiber_g": 3.8,
+      "serving_size": "210g",
+      "allergens": [
+        "Gluten",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Rava Masala Dosa with Potato Palya | Dosas & Crepes | Veg | 210g | 380.0 | 7.2 | 56.0 | 13.5 | 3.8 | Gluten, Nuts"
+    },
+    {
+      "item_id": "item_1a120804597e4a",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Idlis & Vadas",
+      "item_name": "Thatte Idli with Ghee & Podi",
+      "variant_or_size": "150g",
+      "calories_kcal": 260.0,
+      "protein_g": 6.8,
+      "carbs_g": 42.0,
+      "fat_g": 7.5,
+      "fiber_g": 2.8,
+      "serving_size": "150g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Thatte Idli with Ghee & Podi | Idlis & Vadas | Veg | 150g | 260.0 | 6.8 | 42.0 | 7.5 | 2.8 | Milk"
+    },
+    {
+      "item_id": "item_e9294735c1cfdb",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Idlis & Vadas",
+      "item_name": "Button Idli Sambar Dip (14 pcs Mini Idlis)",
+      "variant_or_size": "260g",
+      "calories_kcal": 290.0,
+      "protein_g": 9.2,
+      "carbs_g": 52.0,
+      "fat_g": 4.5,
+      "fiber_g": 5.5,
+      "serving_size": "260g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Button Idli Sambar Dip (14 pcs Mini Idlis) | Idlis & Vadas | Veg | 260g | 290.0 | 9.2 | 52.0 | 4.5 | 5.5 | Milk"
+    },
+    {
+      "item_id": "item_ea65f9f5fb322c",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Idlis & Vadas",
+      "item_name": "Medu Vada / Udin Vada (2 pcs)",
+      "variant_or_size": "110g",
+      "calories_kcal": 320.0,
+      "protein_g": 8.8,
+      "carbs_g": 26.0,
+      "fat_g": 20.0,
+      "fiber_g": 3.2,
+      "serving_size": "110g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Medu Vada / Udin Vada (2 pcs) | Idlis & Vadas | Veg | 110g | 320.0 | 8.8 | 26.0 | 20.0 | 3.2 | None"
+    },
+    {
+      "item_id": "item_d11f43bad15223",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Traditional Rice Baths",
+      "item_name": "Bisi Bele Bath with Boondi",
+      "variant_or_size": "250g",
+      "calories_kcal": 360.0,
+      "protein_g": 9.5,
+      "carbs_g": 56.0,
+      "fat_g": 10.5,
+      "fiber_g": 5.8,
+      "serving_size": "250g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Bisi Bele Bath with Boondi | Traditional Rice Baths | Veg | 250g | 360.0 | 9.5 | 56.0 | 10.5 | 5.8 | Milk"
+    },
+    {
+      "item_id": "item_8ea4c24f17e7e4",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Traditional Rice Baths",
+      "item_name": "Khara Bath (Savory Semolina Upma)",
+      "variant_or_size": "180g",
+      "calories_kcal": 240.0,
+      "protein_g": 5.2,
+      "carbs_g": 36.0,
+      "fat_g": 8.5,
+      "fiber_g": 3.0,
+      "serving_size": "180g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Khara Bath (Savory Semolina Upma) | Traditional Rice Baths | Veg | 180g | 240.0 | 5.2 | 36.0 | 8.5 | 3.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_498d40f642b600",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Traditional Sweets",
+      "item_name": "Kesari Bath (Pineapple Saffron Semolina Halwa)",
+      "variant_or_size": "140g",
+      "calories_kcal": 330.0,
+      "protein_g": 4.0,
+      "carbs_g": 52.0,
+      "fat_g": 12.0,
+      "fiber_g": 1.2,
+      "serving_size": "140g",
+      "allergens": [
+        "Gluten",
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Kesari Bath (Pineapple Saffron Semolina Halwa) | Traditional Sweets | Veg | 140g | 330.0 | 4.0 | 52.0 | 12.0 | 1.2 | Gluten, Milk, Nuts"
+    },
+    {
+      "item_id": "item_cb92424b0c05be",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Breakfast Meals",
+      "item_name": "Poori Saagu (3 Wheat Pooris with Veg Saagu)",
+      "variant_or_size": "220g",
+      "calories_kcal": 440.0,
+      "protein_g": 8.5,
+      "carbs_g": 58.0,
+      "fat_g": 19.0,
+      "fiber_g": 5.5,
+      "serving_size": "220g",
+      "allergens": [
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Poori Saagu (3 Wheat Pooris with Veg Saagu) | Breakfast Meals | Veg | 220g | 440.0 | 8.5 | 58.0 | 19.0 | 5.5 | Gluten"
+    },
+    {
+      "item_id": "item_0a620a0b3b2678",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Beverages",
+      "item_name": "Authentic South Indian Filter Coffee",
+      "variant_or_size": "150ml",
+      "calories_kcal": 115.0,
+      "protein_g": 3.4,
+      "carbs_g": 15.0,
+      "fat_g": 4.2,
+      "fiber_g": 0.0,
+      "serving_size": "150ml",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Authentic South Indian Filter Coffee | Beverages | Veg | 150ml | 115.0 | 3.4 | 15.0 | 4.2 | 0.0 | Milk"
+    },
+    {
+      "item_id": "item_60c492148bb121",
+      "restaurant": "Asha Tiffins Bangalore",
+      "category": "Beverages",
+      "item_name": "Fresh Badam Milk (Hot)",
+      "variant_or_size": "180ml",
+      "calories_kcal": 165.0,
+      "protein_g": 5.2,
+      "carbs_g": 21.0,
+      "fat_g": 6.8,
+      "fiber_g": 0.5,
+      "serving_size": "180ml",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "asha_tiffins_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Fresh Badam Milk (Hot) | Beverages | Veg | 180ml | 165.0 | 5.2 | 21.0 | 6.8 | 0.5 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_740c6905fc1397",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Hyderabadi Chicken Dum Biryani (1/2 kg Handi)",
+      "variant_or_size": "500g",
+      "calories_kcal": 720.0,
+      "protein_g": 38.0,
+      "carbs_g": 86.0,
+      "fat_g": 24.0,
+      "fiber_g": 4.5,
+      "serving_size": "500g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Hyderabadi Chicken Dum Biryani (1/2 kg Handi) | Dum Biryanis | Non-Veg | 500g | 720.0 | 38.0 | 86.0 | 24.0 | 4.5 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_e7c9e92f1d36be",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Hyderabadi Chicken Dum Biryani (1 kg Handi)",
+      "variant_or_size": "1000g",
+      "calories_kcal": 1440.0,
+      "protein_g": 76.0,
+      "carbs_g": 172.0,
+      "fat_g": 48.0,
+      "fiber_g": 9.0,
+      "serving_size": "1000g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Hyderabadi Chicken Dum Biryani (1 kg Handi) | Dum Biryanis | Non-Veg | 1000g | 1440.0 | 76.0 | 172.0 | 48.0 | 9.0 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_ace787ec3ff9b6",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Hyderabadi Mutton Dum Biryani (1/2 kg Handi)",
+      "variant_or_size": "500g",
+      "calories_kcal": 840.0,
+      "protein_g": 41.0,
+      "carbs_g": 84.0,
+      "fat_g": 37.0,
+      "fiber_g": 4.0,
+      "serving_size": "500g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Hyderabadi Mutton Dum Biryani (1/2 kg Handi) | Dum Biryanis | Non-Veg | 500g | 840.0 | 41.0 | 84.0 | 37.0 | 4.0 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_5dc0e95153c9af",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Hyderabadi Mutton Dum Biryani (1 kg Handi)",
+      "variant_or_size": "1000g",
+      "calories_kcal": 1680.0,
+      "protein_g": 82.0,
+      "carbs_g": 168.0,
+      "fat_g": 74.0,
+      "fiber_g": 8.0,
+      "serving_size": "1000g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Hyderabadi Mutton Dum Biryani (1 kg Handi) | Dum Biryanis | Non-Veg | 1000g | 1680.0 | 82.0 | 168.0 | 74.0 | 8.0 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_d66bb7a8e60206",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Lucknowi Chicken Dum Biryani (1/2 kg Handi)",
+      "variant_or_size": "500g",
+      "calories_kcal": 680.0,
+      "protein_g": 36.0,
+      "carbs_g": 85.0,
+      "fat_g": 21.0,
+      "fiber_g": 3.8,
+      "serving_size": "500g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Lucknowi Chicken Dum Biryani (1/2 kg Handi) | Dum Biryanis | Non-Veg | 500g | 680.0 | 36.0 | 85.0 | 21.0 | 3.8 | Milk"
+    },
+    {
+      "item_id": "item_74e070b336de2a",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Kolkata Chicken Dum Biryani with Aloo & Egg",
+      "variant_or_size": "520g",
+      "calories_kcal": 740.0,
+      "protein_g": 34.0,
+      "carbs_g": 94.0,
+      "fat_g": 23.0,
+      "fiber_g": 4.2,
+      "serving_size": "520g",
+      "allergens": [
+        "Milk",
+        "Egg"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Kolkata Chicken Dum Biryani with Aloo & Egg | Dum Biryanis | Non-Veg | 520g | 740.0 | 34.0 | 94.0 | 23.0 | 4.2 | Milk, Egg"
+    },
+    {
+      "item_id": "item_65d8c5cc120f65",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Veg Dum Biryani (1/2 kg Handi)",
+      "variant_or_size": "480g",
+      "calories_kcal": 560.0,
+      "protein_g": 14.0,
+      "carbs_g": 88.0,
+      "fat_g": 16.0,
+      "fiber_g": 6.2,
+      "serving_size": "480g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Veg Dum Biryani (1/2 kg Handi) | Dum Biryanis | Veg | 480g | 560.0 | 14.0 | 88.0 | 16.0 | 6.2 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_10428207aa5584",
+      "restaurant": "Biryani By Kilo",
+      "category": "Dum Biryanis",
+      "item_name": "Paneer Dum Biryani (1/2 kg Handi)",
+      "variant_or_size": "500g",
+      "calories_kcal": 670.0,
+      "protein_g": 22.0,
+      "carbs_g": 86.0,
+      "fat_g": 26.0,
+      "fiber_g": 5.0,
+      "serving_size": "500g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Paneer Dum Biryani (1/2 kg Handi) | Dum Biryanis | Veg | 500g | 670.0 | 22.0 | 86.0 | 26.0 | 5.0 | Milk"
+    },
+    {
+      "item_id": "item_de72f0245d1645",
+      "restaurant": "Biryani By Kilo",
+      "category": "Starters & Kebabs",
+      "item_name": "Chicken Ghee Roast",
+      "variant_or_size": "240g",
+      "calories_kcal": 460.0,
+      "protein_g": 34.0,
+      "carbs_g": 10.0,
+      "fat_g": 32.0,
+      "fiber_g": 2.0,
+      "serving_size": "240g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chicken Ghee Roast | Starters & Kebabs | Non-Veg | 240g | 460.0 | 34.0 | 10.0 | 32.0 | 2.0 | Milk"
+    },
+    {
+      "item_id": "item_ba34eea1803333",
+      "restaurant": "Biryani By Kilo",
+      "category": "Starters & Kebabs",
+      "item_name": "Galouti Kebab (4 pcs)",
+      "variant_or_size": "180g",
+      "calories_kcal": 380.0,
+      "protein_g": 27.0,
+      "carbs_g": 6.0,
+      "fat_g": 28.0,
+      "fiber_g": 1.2,
+      "serving_size": "180g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Galouti Kebab (4 pcs) | Starters & Kebabs | Non-Veg | 180g | 380.0 | 27.0 | 6.0 | 28.0 | 1.2 | None"
+    },
+    {
+      "item_id": "item_9e078077ed72d0",
+      "restaurant": "Biryani By Kilo",
+      "category": "Desserts",
+      "item_name": "Matka Phirni (Clay Pot)",
+      "variant_or_size": "120g",
+      "calories_kcal": 240.0,
+      "protein_g": 5.5,
+      "carbs_g": 36.0,
+      "fat_g": 8.5,
+      "fiber_g": 0.8,
+      "serving_size": "120g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Matka Phirni (Clay Pot) | Desserts | Veg | 120g | 240.0 | 5.5 | 36.0 | 8.5 | 0.8 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_a65e05615a6645",
+      "restaurant": "Biryani By Kilo",
+      "category": "Desserts",
+      "item_name": "Gulab Jamun (2 pcs in Handi)",
+      "variant_or_size": "100g",
+      "calories_kcal": 320.0,
+      "protein_g": 4.5,
+      "carbs_g": 54.0,
+      "fat_g": 9.5,
+      "fiber_g": 0.5,
+      "serving_size": "100g",
+      "allergens": [
+        "Milk",
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Gulab Jamun (2 pcs in Handi) | Desserts | Veg | 100g | 320.0 | 4.5 | 54.0 | 9.5 | 0.5 | Milk, Gluten"
+    },
+    {
+      "item_id": "item_11a0e2357d4c89",
+      "restaurant": "Biryani By Kilo",
+      "category": "Accompaniments",
+      "item_name": "Mirchi Ka Salan (Side Gravy)",
+      "variant_or_size": "100g",
+      "calories_kcal": 150.0,
+      "protein_g": 3.5,
+      "carbs_g": 8.0,
+      "fat_g": 12.0,
+      "fiber_g": 2.2,
+      "serving_size": "100g",
+      "allergens": [
+        "Peanuts",
+        "Sesame"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Mirchi Ka Salan (Side Gravy) | Accompaniments | Veg | 100g | 150.0 | 3.5 | 8.0 | 12.0 | 2.2 | Peanuts, Sesame"
+    },
+    {
+      "item_id": "item_2ec6729b45d4bd",
+      "restaurant": "Biryani By Kilo",
+      "category": "Accompaniments",
+      "item_name": "Burani Raita (Garlic Spiced Curd)",
+      "variant_or_size": "100g",
+      "calories_kcal": 90.0,
+      "protein_g": 3.8,
+      "carbs_g": 6.0,
+      "fat_g": 5.2,
+      "fiber_g": 0.4,
+      "serving_size": "100g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "biryani_by_kilo_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Burani Raita (Garlic Spiced Curd) | Accompaniments | Veg | 100g | 90.0 | 3.8 | 6.0 | 5.2 | 0.4 | Milk"
+    },
+    {
+      "item_id": "item_8b12ebd5a64249",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Wood-Fired Classics",
+      "item_name": "Classic Margherita Pizza",
+      "variant_or_size": "260g",
+      "calories_kcal": 610.0,
+      "protein_g": 22.0,
+      "carbs_g": 78.0,
+      "fat_g": 23.0,
+      "fiber_g": 3.5,
+      "serving_size": "260g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Classic Margherita Pizza | Wood-Fired Classics | Veg | 260g | 610.0 | 22.0 | 78.0 | 23.0 | 3.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_b10501db5f6932",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Wood-Fired Classics",
+      "item_name": "Pepperoni Boom Pizza",
+      "variant_or_size": "290g",
+      "calories_kcal": 760.0,
+      "protein_g": 31.0,
+      "carbs_g": 77.0,
+      "fat_g": 36.0,
+      "fiber_g": 3.2,
+      "serving_size": "290g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Pepperoni Boom Pizza | Wood-Fired Classics | Non-Veg | 290g | 760.0 | 31.0 | 77.0 | 36.0 | 3.2 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_10bede2c3694e8",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Fusion & Veg Pizzas",
+      "item_name": "Pesto Paneer Pizza",
+      "variant_or_size": "300g",
+      "calories_kcal": 740.0,
+      "protein_g": 28.0,
+      "carbs_g": 76.0,
+      "fat_g": 36.0,
+      "fiber_g": 4.2,
+      "serving_size": "300g",
+      "allergens": [
+        "Gluten",
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Pesto Paneer Pizza | Fusion & Veg Pizzas | Veg | 300g | 740.0 | 28.0 | 76.0 | 36.0 | 4.2 | Gluten, Milk, Nuts"
+    },
+    {
+      "item_id": "item_be52cc85eb514e",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Fusion & Meat Pizzas",
+      "item_name": "Butter Chicken Pizza",
+      "variant_or_size": "320g",
+      "calories_kcal": 780.0,
+      "protein_g": 38.0,
+      "carbs_g": 82.0,
+      "fat_g": 33.0,
+      "fiber_g": 3.8,
+      "serving_size": "320g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Butter Chicken Pizza | Fusion & Meat Pizzas | Non-Veg | 320g | 780.0 | 38.0 | 82.0 | 33.0 | 3.8 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_8049c5c09846e0",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Fusion & Meat Pizzas",
+      "item_name": "Ghee Roast Chicken Pizza",
+      "variant_or_size": "320g",
+      "calories_kcal": 820.0,
+      "protein_g": 39.0,
+      "carbs_g": 78.0,
+      "fat_g": 39.0,
+      "fiber_g": 3.5,
+      "serving_size": "320g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Ghee Roast Chicken Pizza | Fusion & Meat Pizzas | Non-Veg | 320g | 820.0 | 39.0 | 78.0 | 39.0 | 3.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_8371bdd86aa6c1",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Fusion & Veg Pizzas",
+      "item_name": "Ghee Roast Paneer Pizza",
+      "variant_or_size": "310g",
+      "calories_kcal": 790.0,
+      "protein_g": 26.0,
+      "carbs_g": 79.0,
+      "fat_g": 41.0,
+      "fiber_g": 3.8,
+      "serving_size": "310g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Ghee Roast Paneer Pizza | Fusion & Veg Pizzas | Veg | 310g | 790.0 | 26.0 | 79.0 | 41.0 | 3.8 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_ecab9efc1f6d01",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Fusion & Meat Pizzas",
+      "item_name": "Gongura Chicken Pizza",
+      "variant_or_size": "310g",
+      "calories_kcal": 750.0,
+      "protein_g": 37.0,
+      "carbs_g": 78.0,
+      "fat_g": 31.0,
+      "fiber_g": 4.0,
+      "serving_size": "310g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Gongura Chicken Pizza | Fusion & Meat Pizzas | Non-Veg | 310g | 750.0 | 37.0 | 78.0 | 31.0 | 4.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_61ad351c3c38df",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Fusion & Veg Pizzas",
+      "item_name": "Veggie Loaded Wood-Fired Pizza",
+      "variant_or_size": "290g",
+      "calories_kcal": 640.0,
+      "protein_g": 23.0,
+      "carbs_g": 84.0,
+      "fat_g": 24.0,
+      "fiber_g": 5.2,
+      "serving_size": "290g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Veggie Loaded Wood-Fired Pizza | Fusion & Veg Pizzas | Veg | 290g | 640.0 | 23.0 | 84.0 | 24.0 | 5.2 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_5adde962116f86",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Sides & Breads",
+      "item_name": "Wood-Fired Garlic Breadsticks with Dip",
+      "variant_or_size": "160g",
+      "calories_kcal": 420.0,
+      "protein_g": 9.0,
+      "carbs_g": 52.0,
+      "fat_g": 20.0,
+      "fiber_g": 2.5,
+      "serving_size": "160g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Wood-Fired Garlic Breadsticks with Dip | Sides & Breads | Veg | 160g | 420.0 | 9.0 | 52.0 | 20.0 | 2.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_487ff0f827f008",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Calzones",
+      "item_name": "Cheesy Stuffed Calzone",
+      "variant_or_size": "240g",
+      "calories_kcal": 580.0,
+      "protein_g": 22.0,
+      "carbs_g": 64.0,
+      "fat_g": 26.0,
+      "fiber_g": 3.0,
+      "serving_size": "240g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Cheesy Stuffed Calzone | Calzones | Veg | 240g | 580.0 | 22.0 | 64.0 | 26.0 | 3.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_a26f32ffb9d026",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Calzones",
+      "item_name": "Chicken Tikka Calzone",
+      "variant_or_size": "260g",
+      "calories_kcal": 620.0,
+      "protein_g": 34.0,
+      "carbs_g": 65.0,
+      "fat_g": 25.0,
+      "fiber_g": 3.0,
+      "serving_size": "260g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chicken Tikka Calzone | Calzones | Non-Veg | 260g | 620.0 | 34.0 | 65.0 | 25.0 | 3.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_112cff3a8b06e3",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Fusion & Meat Pizzas",
+      "item_name": "Smoky BBQ Chicken Pizza",
+      "variant_or_size": "310g",
+      "calories_kcal": 770.0,
+      "protein_g": 36.0,
+      "carbs_g": 84.0,
+      "fat_g": 31.0,
+      "fiber_g": 3.6,
+      "serving_size": "310g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Smoky BBQ Chicken Pizza | Fusion & Meat Pizzas | Non-Veg | 310g | 770.0 | 36.0 | 84.0 | 31.0 | 3.6 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_8f5f0949b786c9",
+      "restaurant": "Boom Pizza Bangalore",
+      "category": "Wood-Fired Classics",
+      "item_name": "Four Cheese Boom Pizza",
+      "variant_or_size": "290g",
+      "calories_kcal": 790.0,
+      "protein_g": 33.0,
+      "carbs_g": 76.0,
+      "fat_g": 39.0,
+      "fiber_g": 3.2,
+      "serving_size": "290g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "boom_pizza_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Four Cheese Boom Pizza | Wood-Fired Classics | Veg | 290g | 790.0 | 33.0 | 76.0 | 39.0 | 3.2 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_a35991a70a99de",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Classic Sourdough Pizzas",
+      "item_name": "Margherita 2.0",
+      "variant_or_size": "280g",
+      "calories_kcal": 680.0,
+      "protein_g": 24.0,
+      "carbs_g": 86.0,
+      "fat_g": 26.0,
+      "fiber_g": 4.0,
+      "serving_size": "280g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Margherita 2.0 | Classic Sourdough Pizzas | Veg | 280g | 680.0 | 24.0 | 86.0 | 26.0 | 4.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_2a76e1dcd94c77",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Classic Sourdough Pizzas",
+      "item_name": "Marinara",
+      "variant_or_size": "240g",
+      "calories_kcal": 490.0,
+      "protein_g": 14.0,
+      "carbs_g": 84.0,
+      "fat_g": 11.0,
+      "fiber_g": 4.0,
+      "serving_size": "240g",
+      "allergens": [
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Marinara | Classic Sourdough Pizzas | Veg | 240g | 490.0 | 14.0 | 84.0 | 11.0 | 4.0 | Gluten"
+    },
+    {
+      "item_id": "item_cec90094bc4bf4",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Classic Sourdough Pizzas",
+      "item_name": "Quattro Formaggi",
+      "variant_or_size": "310g",
+      "calories_kcal": 840.0,
+      "protein_g": 36.0,
+      "carbs_g": 82.0,
+      "fat_g": 40.0,
+      "fiber_g": 3.5,
+      "serving_size": "310g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Quattro Formaggi | Classic Sourdough Pizzas | Veg | 310g | 840.0 | 36.0 | 82.0 | 40.0 | 3.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_edf049ce7a124b",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Classic Sourdough Pizzas",
+      "item_name": "Smokey Marzano",
+      "variant_or_size": "290g",
+      "calories_kcal": 710.0,
+      "protein_g": 27.0,
+      "carbs_g": 84.0,
+      "fat_g": 29.0,
+      "fiber_g": 4.0,
+      "serving_size": "290g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Smokey Marzano | Classic Sourdough Pizzas | Veg | 290g | 710.0 | 27.0 | 84.0 | 29.0 | 4.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_488e38fb4b33a7",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Classic Sourdough Pizzas",
+      "item_name": "Shrooms Pizza",
+      "variant_or_size": "300g",
+      "calories_kcal": 720.0,
+      "protein_g": 25.0,
+      "carbs_g": 85.0,
+      "fat_g": 31.0,
+      "fiber_g": 5.0,
+      "serving_size": "300g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Shrooms Pizza | Classic Sourdough Pizzas | Veg | 300g | 720.0 | 25.0 | 85.0 | 31.0 | 5.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_175ce8a24fe2a5",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Specialty Meat Pizzas",
+      "item_name": "Streaking Pigs Pizza",
+      "variant_or_size": "320g",
+      "calories_kcal": 860.0,
+      "protein_g": 38.0,
+      "carbs_g": 84.0,
+      "fat_g": 41.0,
+      "fiber_g": 3.5,
+      "serving_size": "320g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Streaking Pigs Pizza | Specialty Meat Pizzas | Non-Veg | 320g | 860.0 | 38.0 | 84.0 | 41.0 | 3.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_101f999bd8c6ab",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Specialty Meat Pizzas",
+      "item_name": "Diavola Pepperoni Pizza",
+      "variant_or_size": "310g",
+      "calories_kcal": 820.0,
+      "protein_g": 34.0,
+      "carbs_g": 83.0,
+      "fat_g": 38.0,
+      "fiber_g": 3.5,
+      "serving_size": "310g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Diavola Pepperoni Pizza | Specialty Meat Pizzas | Non-Veg | 310g | 820.0 | 34.0 | 83.0 | 38.0 | 3.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_c11541629cdfaa",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Specialty Meat Pizzas",
+      "item_name": "Bird In Hand Pizza",
+      "variant_or_size": "320g",
+      "calories_kcal": 790.0,
+      "protein_g": 42.0,
+      "carbs_g": 86.0,
+      "fat_g": 30.0,
+      "fiber_g": 4.0,
+      "serving_size": "320g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Bird In Hand Pizza | Specialty Meat Pizzas | Non-Veg | 320g | 790.0 | 42.0 | 86.0 | 30.0 | 4.0 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_ffe2ac2efaa9e5",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Appetizers & Breads",
+      "item_name": "Classic Garlic Bread",
+      "variant_or_size": "140g",
+      "calories_kcal": 390.0,
+      "protein_g": 8.0,
+      "carbs_g": 48.0,
+      "fat_g": 18.0,
+      "fiber_g": 2.5,
+      "serving_size": "140g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Classic Garlic Bread | Appetizers & Breads | Veg | 140g | 390.0 | 8.0 | 48.0 | 18.0 | 2.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_03eab85d1cdd34",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Appetizers & Breads",
+      "item_name": "Blue Cheese Bacon Pineapple Garlic Bread",
+      "variant_or_size": "180g",
+      "calories_kcal": 520.0,
+      "protein_g": 16.0,
+      "carbs_g": 50.0,
+      "fat_g": 28.0,
+      "fiber_g": 2.5,
+      "serving_size": "180g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Blue Cheese Bacon Pineapple Garlic Bread | Appetizers & Breads | Non-Veg | 180g | 520.0 | 16.0 | 50.0 | 28.0 | 2.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_39c625558e2fe1",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Appetizers & Breads",
+      "item_name": "Mozzarella Fritta (Fried Mozzarella Sticks)",
+      "variant_or_size": "160g",
+      "calories_kcal": 460.0,
+      "protein_g": 19.0,
+      "carbs_g": 32.0,
+      "fat_g": 28.0,
+      "fiber_g": 2.0,
+      "serving_size": "160g",
+      "allergens": [
+        "Gluten",
+        "Milk",
+        "Egg"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Mozzarella Fritta (Fried Mozzarella Sticks) | Appetizers & Breads | Veg | 160g | 460.0 | 19.0 | 32.0 | 28.0 | 2.0 | Gluten, Milk, Egg"
+    },
+    {
+      "item_id": "item_412f9906274ebe",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Shakes & Desserts",
+      "item_name": "Cookie Monster Shake",
+      "variant_or_size": "350ml",
+      "calories_kcal": 580.0,
+      "protein_g": 9.0,
+      "carbs_g": 78.0,
+      "fat_g": 26.0,
+      "fiber_g": 2.0,
+      "serving_size": "350ml",
+      "allergens": [
+        "Milk",
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Cookie Monster Shake | Shakes & Desserts | Veg | 350ml | 580.0 | 9.0 | 78.0 | 26.0 | 2.0 | Milk, Gluten"
+    },
+    {
+      "item_id": "item_aa1fc3faf6a368",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Shakes & Desserts",
+      "item_name": "Big Bang Chocolate Shake",
+      "variant_or_size": "350ml",
+      "calories_kcal": 640.0,
+      "protein_g": 11.0,
+      "carbs_g": 86.0,
+      "fat_g": 28.0,
+      "fiber_g": 3.0,
+      "serving_size": "350ml",
+      "allergens": [
+        "Milk",
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Big Bang Chocolate Shake | Shakes & Desserts | Veg | 350ml | 640.0 | 11.0 | 86.0 | 28.0 | 3.0 | Milk, Gluten"
+    },
+    {
+      "item_id": "item_ac6062c28ac5d2",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Shakes & Desserts",
+      "item_name": "Brik Oven Banoffee Pie",
+      "variant_or_size": "160g",
+      "calories_kcal": 510.0,
+      "protein_g": 6.0,
+      "carbs_g": 64.0,
+      "fat_g": 26.0,
+      "fiber_g": 2.5,
+      "serving_size": "160g",
+      "allergens": [
+        "Milk",
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Brik Oven Banoffee Pie | Shakes & Desserts | Veg | 160g | 510.0 | 6.0 | 64.0 | 26.0 | 2.5 | Milk, Gluten"
+    },
+    {
+      "item_id": "item_afd547da360b41",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Shakes & Desserts",
+      "item_name": "Classic Tiramisu",
+      "variant_or_size": "150g",
+      "calories_kcal": 440.0,
+      "protein_g": 7.0,
+      "carbs_g": 42.0,
+      "fat_g": 27.0,
+      "fiber_g": 1.5,
+      "serving_size": "150g",
+      "allergens": [
+        "Milk",
+        "Gluten",
+        "Egg"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Classic Tiramisu | Shakes & Desserts | Veg | 150g | 440.0 | 7.0 | 42.0 | 27.0 | 1.5 | Milk, Gluten, Egg"
+    },
+    {
+      "item_id": "item_9a45b3e9dffb68",
+      "restaurant": "Brik Oven Bangalore",
+      "category": "Shakes & Desserts",
+      "item_name": "Lemon Ricotta Cake",
+      "variant_or_size": "140g",
+      "calories_kcal": 410.0,
+      "protein_g": 8.0,
+      "carbs_g": 46.0,
+      "fat_g": 21.0,
+      "fiber_g": 1.8,
+      "serving_size": "140g",
+      "allergens": [
+        "Milk",
+        "Gluten",
+        "Egg"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "brik_oven_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Lemon Ricotta Cake | Shakes & Desserts | Veg | 140g | 410.0 | 8.0 | 46.0 | 21.0 | 1.8 | Milk, Gluten, Egg"
+    },
     {
       "item_id": "item_38220c2975a6de",
       "restaurant": "Burger King India",
@@ -51239,6 +54452,340 @@
       "source_page_or_section": "Page 8, Table 4",
       "doc_modality": "tabular",
       "raw_text": "CORN SALSA | 35 | 0g | 1.2g | 7.2g"
+    },
+    {
+      "item_id": "item_7286674443f236",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Signature Sundaes",
+      "item_name": "Death By Chocolate (DBC)",
+      "variant_or_size": "420g",
+      "calories_kcal": 840.0,
+      "protein_g": 14.5,
+      "carbs_g": 108.0,
+      "fat_g": 42.0,
+      "fiber_g": 4.2,
+      "serving_size": "420g",
+      "allergens": [
+        "Milk",
+        "Gluten",
+        "Peanuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Death By Chocolate (DBC) | Signature Sundaes | Veg | 420g | 840.0 | 14.5 | 108.0 | 42.0 | 4.2 | Milk, Gluten, Peanuts"
+    },
+    {
+      "item_id": "item_ee1b36b8a1e834",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fudge Sundaes",
+      "item_name": "Hot Chocolate Fudge (HCF)",
+      "variant_or_size": "280g",
+      "calories_kcal": 560.0,
+      "protein_g": 9.2,
+      "carbs_g": 74.0,
+      "fat_g": 27.0,
+      "fiber_g": 2.5,
+      "serving_size": "280g",
+      "allergens": [
+        "Milk",
+        "Peanuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Hot Chocolate Fudge (HCF) | Fudge Sundaes | Veg | 280g | 560.0 | 9.2 | 74.0 | 27.0 | 2.5 | Milk, Peanuts"
+    },
+    {
+      "item_id": "item_2e9f8a80590452",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fudge Sundaes",
+      "item_name": "Cake Fudge",
+      "variant_or_size": "300g",
+      "calories_kcal": 620.0,
+      "protein_g": 10.0,
+      "carbs_g": 84.0,
+      "fat_g": 29.0,
+      "fiber_g": 2.8,
+      "serving_size": "300g",
+      "allergens": [
+        "Milk",
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Cake Fudge | Fudge Sundaes | Veg | 300g | 620.0 | 10.0 | 84.0 | 29.0 | 2.8 | Milk, Gluten"
+    },
+    {
+      "item_id": "item_1c7dac76607297",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fudge Sundaes",
+      "item_name": "Brown Bomb (Brownie Fudge Sundae)",
+      "variant_or_size": "340g",
+      "calories_kcal": 720.0,
+      "protein_g": 11.5,
+      "carbs_g": 92.0,
+      "fat_g": 35.0,
+      "fiber_g": 3.5,
+      "serving_size": "340g",
+      "allergens": [
+        "Milk",
+        "Gluten",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Brown Bomb (Brownie Fudge Sundae) | Fudge Sundaes | Veg | 340g | 720.0 | 11.5 | 92.0 | 35.0 | 3.5 | Milk, Gluten, Nuts"
+    },
+    {
+      "item_id": "item_9e41aec082761a",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fudge Sundaes",
+      "item_name": "Cake A Mocha",
+      "variant_or_size": "300g",
+      "calories_kcal": 610.0,
+      "protein_g": 9.8,
+      "carbs_g": 82.0,
+      "fat_g": 28.0,
+      "fiber_g": 2.6,
+      "serving_size": "300g",
+      "allergens": [
+        "Milk",
+        "Gluten",
+        "Peanuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Cake A Mocha | Fudge Sundaes | Veg | 300g | 610.0 | 9.8 | 82.0 | 28.0 | 2.6 | Milk, Gluten, Peanuts"
+    },
+    {
+      "item_id": "item_1941349f044b2a",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Signature Sundaes",
+      "item_name": "Trilogy Sundae",
+      "variant_or_size": "350g",
+      "calories_kcal": 660.0,
+      "protein_g": 10.5,
+      "carbs_g": 90.0,
+      "fat_g": 30.0,
+      "fiber_g": 2.5,
+      "serving_size": "350g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Trilogy Sundae | Signature Sundaes | Veg | 350g | 660.0 | 10.5 | 90.0 | 30.0 | 2.5 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_a4fe0965fd1618",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fruit Sundaes",
+      "item_name": "Fruit Jackpot",
+      "variant_or_size": "320g",
+      "calories_kcal": 390.0,
+      "protein_g": 6.2,
+      "carbs_g": 76.0,
+      "fat_g": 9.0,
+      "fiber_g": 3.8,
+      "serving_size": "320g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Fruit Jackpot | Fruit Sundaes | Veg | 320g | 390.0 | 6.2 | 76.0 | 9.0 | 3.8 | Milk"
+    },
+    {
+      "item_id": "item_287eeb7350acd2",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fudge Sundaes",
+      "item_name": "Almond Fudge Sundae",
+      "variant_or_size": "290g",
+      "calories_kcal": 610.0,
+      "protein_g": 12.0,
+      "carbs_g": 70.0,
+      "fat_g": 32.0,
+      "fiber_g": 3.2,
+      "serving_size": "290g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Almond Fudge Sundae | Fudge Sundaes | Veg | 290g | 610.0 | 12.0 | 70.0 | 32.0 | 3.2 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_d6a6a3a8f5165a",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Classic Sundaes",
+      "item_name": "Butterscotch Sundae",
+      "variant_or_size": "260g",
+      "calories_kcal": 520.0,
+      "protein_g": 7.5,
+      "carbs_g": 72.0,
+      "fat_g": 23.0,
+      "fiber_g": 1.8,
+      "serving_size": "260g",
+      "allergens": [
+        "Milk",
+        "Nuts"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Butterscotch Sundae | Classic Sundaes | Veg | 260g | 520.0 | 7.5 | 72.0 | 23.0 | 1.8 | Milk, Nuts"
+    },
+    {
+      "item_id": "item_adc1953fdc42f2",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Classic Scoops",
+      "item_name": "Vanilla Scoop with Hot Fudge",
+      "variant_or_size": "180g",
+      "calories_kcal": 380.0,
+      "protein_g": 5.8,
+      "carbs_g": 50.0,
+      "fat_g": 18.0,
+      "fiber_g": 1.5,
+      "serving_size": "180g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Vanilla Scoop with Hot Fudge | Classic Scoops | Veg | 180g | 380.0 | 5.8 | 50.0 | 18.0 | 1.5 | Milk"
+    },
+    {
+      "item_id": "item_2af6c0a63ee348",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Thick Shakes",
+      "item_name": "Chocolate Thick Shake",
+      "variant_or_size": "350ml",
+      "calories_kcal": 490.0,
+      "protein_g": 11.0,
+      "carbs_g": 68.0,
+      "fat_g": 20.0,
+      "fiber_g": 2.0,
+      "serving_size": "350ml",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chocolate Thick Shake | Thick Shakes | Veg | 350ml | 490.0 | 11.0 | 68.0 | 20.0 | 2.0 | Milk"
+    },
+    {
+      "item_id": "item_8987ab78e473fd",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Thick Shakes",
+      "item_name": "Chocolate Malt Thick Shake",
+      "variant_or_size": "350ml",
+      "calories_kcal": 520.0,
+      "protein_g": 12.0,
+      "carbs_g": 74.0,
+      "fat_g": 20.0,
+      "fiber_g": 2.0,
+      "serving_size": "350ml",
+      "allergens": [
+        "Milk",
+        "Gluten"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Chocolate Malt Thick Shake | Thick Shakes | Veg | 350ml | 520.0 | 12.0 | 74.0 | 20.0 | 2.0 | Milk, Gluten"
+    },
+    {
+      "item_id": "item_2d9d7c7283ba12",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fruit Sundaes",
+      "item_name": "Strawberry Sundae",
+      "variant_or_size": "250g",
+      "calories_kcal": 410.0,
+      "protein_g": 6.0,
+      "carbs_g": 68.0,
+      "fat_g": 14.0,
+      "fiber_g": 2.2,
+      "serving_size": "250g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Strawberry Sundae | Fruit Sundaes | Veg | 250g | 410.0 | 6.0 | 68.0 | 14.0 | 2.2 | Milk"
+    },
+    {
+      "item_id": "item_2158d318056591",
+      "restaurant": "Corner House Ice Creams Bangalore",
+      "category": "Fruit Sundaes",
+      "item_name": "Mango Sundae (Seasonal)",
+      "variant_or_size": "260g",
+      "calories_kcal": 430.0,
+      "protein_g": 6.2,
+      "carbs_g": 72.0,
+      "fat_g": 14.0,
+      "fiber_g": 2.5,
+      "serving_size": "260g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "corner_house_ice_creams_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Mango Sundae (Seasonal) | Fruit Sundaes | Veg | 260g | 430.0 | 6.2 | 72.0 | 14.0 | 2.5 | Milk"
     },
     {
       "item_id": "item_1aeffa9946cecb",
@@ -88352,6 +91899,357 @@
       "source_page_or_section": "Page 16",
       "doc_modality": "tabular",
       "raw_text": "Stretched With WCD 309 6 833.4 41.7 89.9 36.5 10.5 ND ND 0 38.6 57.7 10.8 11.7 15.1 68.8 ND 0 94.6 2277.3 113.9 Milk & Milk Products."
+    },
+    {
+      "item_id": "item_82bbf1cf33d04f",
+      "restaurant": "Plan B Bangalore",
+      "category": "Chicken Wings",
+      "item_name": "Naked Crispy Wings (6 pcs with Blue Cheese Dip)",
+      "variant_or_size": "220g",
+      "calories_kcal": 460.0,
+      "protein_g": 38.0,
+      "carbs_g": 2.0,
+      "fat_g": 32.0,
+      "fiber_g": 0.0,
+      "serving_size": "220g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Naked Crispy Wings (6 pcs with Blue Cheese Dip) | Chicken Wings | Non-Veg | 220g | 460.0 | 38.0 | 2.0 | 32.0 | 0.0 | Milk"
+    },
+    {
+      "item_id": "item_5363d119ee47b9",
+      "restaurant": "Plan B Bangalore",
+      "category": "Chicken Wings",
+      "item_name": "Spicy Buffalo Garlic Wings (6 pcs)",
+      "variant_or_size": "240g",
+      "calories_kcal": 510.0,
+      "protein_g": 39.0,
+      "carbs_g": 5.0,
+      "fat_g": 36.0,
+      "fiber_g": 0.5,
+      "serving_size": "240g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Spicy Buffalo Garlic Wings (6 pcs) | Chicken Wings | Non-Veg | 240g | 510.0 | 39.0 | 5.0 | 36.0 | 0.5 | Milk"
+    },
+    {
+      "item_id": "item_41da17e3fd65f1",
+      "restaurant": "Plan B Bangalore",
+      "category": "Chicken Wings",
+      "item_name": "Flamin\u2019 Jalape\u00f1o Wings (6 pcs)",
+      "variant_or_size": "240g",
+      "calories_kcal": 490.0,
+      "protein_g": 38.0,
+      "carbs_g": 6.0,
+      "fat_g": 34.0,
+      "fiber_g": 0.8,
+      "serving_size": "240g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Flamin\u2019 Jalape\u00f1o Wings (6 pcs) | Chicken Wings | Non-Veg | 240g | 490.0 | 38.0 | 6.0 | 34.0 | 0.8 | Milk"
+    },
+    {
+      "item_id": "item_8ac728be8c8b06",
+      "restaurant": "Plan B Bangalore",
+      "category": "Chicken Wings",
+      "item_name": "Canadian Peanut Butter Chicken Wings (6 pcs)",
+      "variant_or_size": "250g",
+      "calories_kcal": 590.0,
+      "protein_g": 43.0,
+      "carbs_g": 14.0,
+      "fat_g": 39.0,
+      "fiber_g": 2.0,
+      "serving_size": "250g",
+      "allergens": [
+        "Peanuts"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Canadian Peanut Butter Chicken Wings (6 pcs) | Chicken Wings | Non-Veg | 250g | 590.0 | 43.0 | 14.0 | 39.0 | 2.0 | Peanuts"
+    },
+    {
+      "item_id": "item_e310e77e86d4d7",
+      "restaurant": "Plan B Bangalore",
+      "category": "Chicken Wings",
+      "item_name": "Parisian Mustard Jaggery Wings (6 pcs)",
+      "variant_or_size": "240g",
+      "calories_kcal": 480.0,
+      "protein_g": 38.0,
+      "carbs_g": 16.0,
+      "fat_g": 29.0,
+      "fiber_g": 0.6,
+      "serving_size": "240g",
+      "allergens": [
+        "Mustard"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Parisian Mustard Jaggery Wings (6 pcs) | Chicken Wings | Non-Veg | 240g | 480.0 | 38.0 | 16.0 | 29.0 | 0.6 | Mustard"
+    },
+    {
+      "item_id": "item_5a2582a980af1e",
+      "restaurant": "Plan B Bangalore",
+      "category": "Chicken Wings",
+      "item_name": "Sour Cream & Onion Wings (6 pcs)",
+      "variant_or_size": "230g",
+      "calories_kcal": 480.0,
+      "protein_g": 39.0,
+      "carbs_g": 5.0,
+      "fat_g": 33.0,
+      "fiber_g": 0.5,
+      "serving_size": "230g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Sour Cream & Onion Wings (6 pcs) | Chicken Wings | Non-Veg | 230g | 480.0 | 39.0 | 5.0 | 33.0 | 0.5 | Milk"
+    },
+    {
+      "item_id": "item_ae239ab31b8f3b",
+      "restaurant": "Plan B Bangalore",
+      "category": "Chicken Wings",
+      "item_name": "BBQ Smoked Chicken Wings (6 pcs)",
+      "variant_or_size": "240g",
+      "calories_kcal": 520.0,
+      "protein_g": 38.0,
+      "carbs_g": 20.0,
+      "fat_g": 31.0,
+      "fiber_g": 0.6,
+      "serving_size": "240g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "BBQ Smoked Chicken Wings (6 pcs) | Chicken Wings | Non-Veg | 240g | 520.0 | 38.0 | 20.0 | 31.0 | 0.6 | None"
+    },
+    {
+      "item_id": "item_44828d5fe8ce0e",
+      "restaurant": "Plan B Bangalore",
+      "category": "Burgers & Mains",
+      "item_name": "The Motherclucker Burger (Crisp Fried Chicken)",
+      "variant_or_size": "280g",
+      "calories_kcal": 740.0,
+      "protein_g": 38.0,
+      "carbs_g": 62.0,
+      "fat_g": 37.0,
+      "fiber_g": 3.5,
+      "serving_size": "280g",
+      "allergens": [
+        "Gluten",
+        "Milk",
+        "Egg"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "The Motherclucker Burger (Crisp Fried Chicken) | Burgers & Mains | Non-Veg | 280g | 740.0 | 38.0 | 62.0 | 37.0 | 3.5 | Gluten, Milk, Egg"
+    },
+    {
+      "item_id": "item_787b6571c49654",
+      "restaurant": "Plan B Bangalore",
+      "category": "Burgers & Mains",
+      "item_name": "Juicy Lucy Beef Burger (Cheese Stuffed Patty)",
+      "variant_or_size": "310g",
+      "calories_kcal": 840.0,
+      "protein_g": 48.0,
+      "carbs_g": 52.0,
+      "fat_g": 48.0,
+      "fiber_g": 3.0,
+      "serving_size": "310g",
+      "allergens": [
+        "Gluten",
+        "Milk",
+        "Sesame"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Juicy Lucy Beef Burger (Cheese Stuffed Patty) | Burgers & Mains | Non-Veg | 310g | 840.0 | 48.0 | 52.0 | 48.0 | 3.0 | Gluten, Milk, Sesame"
+    },
+    {
+      "item_id": "item_431ae8fafac10c",
+      "restaurant": "Plan B Bangalore",
+      "category": "Burgers & Mains",
+      "item_name": "Fried Paneer Burger with Buffalo Mayo",
+      "variant_or_size": "270g",
+      "calories_kcal": 680.0,
+      "protein_g": 24.0,
+      "carbs_g": 58.0,
+      "fat_g": 39.0,
+      "fiber_g": 3.2,
+      "serving_size": "270g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Fried Paneer Burger with Buffalo Mayo | Burgers & Mains | Veg | 270g | 680.0 | 24.0 | 58.0 | 39.0 | 3.2 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_8ee9d8a3c00076",
+      "restaurant": "Plan B Bangalore",
+      "category": "Burgers & Mains",
+      "item_name": "Potato & Sweet Corn Burger with Salsa",
+      "variant_or_size": "240g",
+      "calories_kcal": 510.0,
+      "protein_g": 11.0,
+      "carbs_g": 64.0,
+      "fat_g": 22.0,
+      "fiber_g": 4.5,
+      "serving_size": "240g",
+      "allergens": [
+        "Gluten",
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Potato & Sweet Corn Burger with Salsa | Burgers & Mains | Veg | 240g | 510.0 | 11.0 | 64.0 | 22.0 | 4.5 | Gluten, Milk"
+    },
+    {
+      "item_id": "item_dd8595b79f7a77",
+      "restaurant": "Plan B Bangalore",
+      "category": "Pub Sides & Bites",
+      "item_name": "Cheesy Garlic Fries (Melted Cheddar Sauce)",
+      "variant_or_size": "220g",
+      "calories_kcal": 490.0,
+      "protein_g": 8.0,
+      "carbs_g": 54.0,
+      "fat_g": 27.0,
+      "fiber_g": 4.0,
+      "serving_size": "220g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Cheesy Garlic Fries (Melted Cheddar Sauce) | Pub Sides & Bites | Veg | 220g | 490.0 | 8.0 | 54.0 | 27.0 | 4.0 | Milk"
+    },
+    {
+      "item_id": "item_18356efb97e9a1",
+      "restaurant": "Plan B Bangalore",
+      "category": "Pub Sides & Bites",
+      "item_name": "Bacon Wrapped Sausages (6 pcs)",
+      "variant_or_size": "180g",
+      "calories_kcal": 440.0,
+      "protein_g": 26.0,
+      "carbs_g": 3.0,
+      "fat_g": 35.0,
+      "fiber_g": 0.2,
+      "serving_size": "180g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Non-Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Bacon Wrapped Sausages (6 pcs) | Pub Sides & Bites | Non-Veg | 180g | 440.0 | 26.0 | 3.0 | 35.0 | 0.2 | None"
+    },
+    {
+      "item_id": "item_48f8cc2e01c457",
+      "restaurant": "Plan B Bangalore",
+      "category": "Pub Sides & Bites",
+      "item_name": "Loaded Chilli Cheese Nachos",
+      "variant_or_size": "260g",
+      "calories_kcal": 580.0,
+      "protein_g": 14.0,
+      "carbs_g": 66.0,
+      "fat_g": 29.0,
+      "fiber_g": 6.5,
+      "serving_size": "260g",
+      "allergens": [
+        "Milk"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Loaded Chilli Cheese Nachos | Pub Sides & Bites | Veg | 260g | 580.0 | 14.0 | 66.0 | 29.0 | 6.5 | Milk"
+    },
+    {
+      "item_id": "item_c5cd280b805010",
+      "restaurant": "Plan B Bangalore",
+      "category": "Pub Sides & Bites",
+      "item_name": "Crispy American Corn Kernels",
+      "variant_or_size": "160g",
+      "calories_kcal": 320.0,
+      "protein_g": 6.0,
+      "carbs_g": 44.0,
+      "fat_g": 13.0,
+      "fiber_g": 4.8,
+      "serving_size": "160g",
+      "allergens": [
+        "None"
+      ],
+      "dietary_tags": [
+        "Veg"
+      ],
+      "source_file": "plan_b_bangalore_nutrition.pdf",
+      "source_page_or_section": "Page 1, Table 1",
+      "doc_modality": "tabular",
+      "raw_text": "Crispy American Corn Kernels | Pub Sides & Bites | Veg | 160g | 320.0 | 6.0 | 44.0 | 13.0 | 4.8 | None"
     },
     {
       "item_id": "item_bd09c4711e037e",

@@ -38,6 +38,20 @@ def detect_restaurant_name(filename: str, sample_text: str) -> str:
         return "Haldiram's India"
     if any(k in combined for k in ("domino's", "dominos", "jubilant")):
         return "Domino's Pizza India"
+    if any(k in combined for k in ("brik oven", "brikoven")):
+        return "Brik Oven"
+    if any(k in combined for k in ("corner house", "death by chocolate", "dbc")):
+        return "Corner House Ice Cream"
+    if any(k in combined for k in ("boom pizza", "boompizza")):
+        return "Boom Pizza"
+    if any(k in combined for k in ("al daaz", "aldaaz")):
+        return "Al Daaz"
+    if any(k in combined for k in ("biryani by kilo", "bbk")):
+        return "Biryani By Kilo"
+    if any(k in combined for k in ("asha tiffin", "ashatiffin", "asha tiffins")):
+        return "Asha Tiffins"
+    if any(k in combined for k in ("plan b", "planb", "motherclucker")):
+        return "Plan B"
     if "indian_restaurant" in filename.lower() or "street_food" in filename.lower():
         return "Indian Restaurant & Street Food"
 
