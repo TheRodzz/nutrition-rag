@@ -26,4 +26,15 @@ services:
       - /etc/group:/etc/group:ro
       - /home/ubuntu/.local/bin:/home/ubuntu/.local/bin:ro
       - /home/ubuntu/.gemini:/home/ubuntu/.gemini
+    networks:
+      - default
+      - npm_default
+      - proxy
     restart: unless-stopped
+
+networks:
+  default:
+  npm_default:
+    external: true
+  proxy:
+    external: true
