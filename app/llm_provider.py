@@ -77,6 +77,8 @@ async def generate_with_agy(
         prompt,
         "--model",
         chosen_model,
+        "--effort",
+        "low",
         "--output-format",
         "json",
         "--disable-slash-commands",

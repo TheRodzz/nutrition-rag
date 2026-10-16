@@ -119,6 +119,7 @@ class NutritionRAGEngine:
             )
 
         return f"""You are a high-precision Restaurant Nutrition RAG Engine for McDonald's India, Subway India, California Burrito India, and any other uploaded restaurant documents.
+CRITICAL RULE: DO NOT CALL ANY TOOLS (do not call view_file, run_command, grep, or any other tool). All required data is already provided below. Respond immediately in a single turn with ONLY the raw JSON object.
 Accuracy is the #1 requirement. You must NEVER invent or guess macro numbers. Every macro value MUST come directly from the retrieved candidate items or document chunks below.
 
 USER ORDER / QUERY:

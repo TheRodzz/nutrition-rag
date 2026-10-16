@@ -4,20 +4,26 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: nutrition-rag
+    user: "1001:1001"
     ports:
       - "${PORT:-8080}:8080"
     extra_hosts:
       - "host.docker.internal:host-gateway"
     environment:
+      - HOME=/home/ubuntu
+      - USER=ubuntu
       - LLM_PROVIDER=${LLM_PROVIDER:-agy}
-      - AGY_BIN=/root/.local/bin/agy
-      - AGY_MODEL=${AGY_MODEL:-gemini-3.8-flash-high}
+      - AGY_BIN=/home/ubuntu/.local/bin/agy
+      - AGY_MODEL=${AGY_MODEL:-gemini-3.8-flash-low}
       - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
-      - OLLAMA_MODEL=${OLLAMA_MODEL:-qwen2.5:7b}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-qwen2.5:3b}
       - AUTO_WATCH_DOCUMENTS=true
       - WATCH_INTERVAL_SECONDS=5
     volumes:
       - ./data:/app/data
-      - /home/ubuntu/.local/bin:/root/.local/bin:ro
-      - /home/ubuntu/.gemini:/root/.gemini
+      - ./app:/app/app
+      - /etc/passwd:/etc/passwd:ro
+      - /etc/group:/etc/group:ro
+      - /home/ubuntu/.local/bin:/home/ubuntu/.local/bin:ro
+      - /home/ubuntu/.gemini:/home/ubuntu/.gemini
     restart: unless-stopped

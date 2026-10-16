@@ -23,7 +23,9 @@ RUN python3 -m venv /opt/venv \
 COPY app /app/app
 COPY scripts /app/scripts
 
-RUN mkdir -p /app/data/documents /app/data/index
+RUN mkdir -p /app/data/documents /app/data/index /home/ubuntu/.local/bin /home/ubuntu/.gemini \
+    && chmod 755 /home /home/ubuntu /home/ubuntu/.local \
+    && chown -R 1001:1001 /app /home/ubuntu
 
 EXPOSE 8080
 

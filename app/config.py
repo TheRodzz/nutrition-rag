@@ -14,9 +14,9 @@ INDEX_DIR.mkdir(parents=True, exist_ok=True)
 class RuntimeSettings(BaseModel):
     llm_provider: str = os.getenv("LLM_PROVIDER", "agy")  # "agy" or "ollama"
     agy_bin: str = os.getenv("AGY_BIN", "/home/ubuntu/.local/bin/agy")
-    agy_model: str = os.getenv("AGY_MODEL", "gemini-3.8-flash-high")
+    agy_model: str = os.getenv("AGY_MODEL", "gemini-3.8-flash-low")
     ollama_base_url: str = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
-    ollama_model: str = os.getenv("OLLAMA_MODEL", "qwen2.5:7b")
+    ollama_model: str = os.getenv("OLLAMA_MODEL", "qwen2.5:3b")
     embedding_backend: str = os.getenv("EMBEDDING_BACKEND", "fastembed")  # fastembed / TF-IDF+SVD / ollama
     auto_watch_documents: bool = os.getenv("AUTO_WATCH_DOCUMENTS", "true").lower() == "true"
     watch_interval_seconds: int = int(os.getenv("WATCH_INTERVAL_SECONDS", "5"))
