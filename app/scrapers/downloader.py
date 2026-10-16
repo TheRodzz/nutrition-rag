@@ -29,6 +29,48 @@ OFFICIAL_SOURCES = [
         "url": "https://qnet.blob.core.windows.net/central/Nutritional%20Allergen%20Chart%20-%20August%202026%20-%201786080088269.pdf",
         "description": "Official Subway India Product Nutritional & Allergen Chart (August 2026) PDF",
     },
+    {
+        "filename": "burger_king_india_nutrition_feb_2026.pdf",
+        "restaurant": "Burger King India",
+        "url": "https://d1rgpf387mknul.cloudfront.net/1771400941pdfNI18Feb26pdf",
+        "description": "Official Burger King India Nutritional Information Per Serve (February 2026) PDF",
+    },
+    {
+        "filename": "kfc_india_nutrition_booklet.pdf",
+        "restaurant": "KFC India",
+        "url": "https://about.kfc.co.in/assets/files/nutrition-booklet.pdf",
+        "description": "Official KFC India Nutrition & Allergen Information Booklet (V6, 21 Pages) PDF",
+    },
+    {
+        "filename": "pizza_hut_india_nutrition_booklet.pdf",
+        "restaurant": "Pizza Hut India",
+        "url": "https://www.pizzahut.co.in/order/pdfs/in/nutritionals.6875af05163a32efc1bd637ee7bdfab4.pdf",
+        "description": "Official Pizza Hut India Nutrition & Allergen Information Booklet (17 Pages) PDF",
+    },
+    {
+        "filename": "taco_bell_india_nutrition.pdf",
+        "restaurant": "Taco Bell India",
+        "url": "https://www.tacobell.co.in/pub/media/pdf/NI_Sheet_Final_v1_23-11-2025_OG_Taco.pdf",
+        "description": "Official Taco Bell India Nutritional & Allergen Sheet PDF",
+    },
+    {
+        "filename": "subway_india_december_2024_v248.pdf",
+        "restaurant": "Subway India",
+        "url": "https://qnet.blob.core.windows.net/central/Nutritional%20%2B%20Allergen%20Chart-%20Version%202.48%20December%20(formatted)%20-%201733809969303.pdf",
+        "description": "Official Subway India Product Nutritional & Allergen Chart (v2.48) PDF",
+    },
+    {
+        "filename": "mcdonalds_india_menu_dataset.csv",
+        "restaurant": "McDonald's India",
+        "url": "https://raw.githubusercontent.com/Garvitjoshi1/McDonalds-India-Menu-Nutrition-Dataset/main/India_Menu.csv",
+        "description": "McDonald's India 141-Item Machine-Readable Nutritional Dataset CSV",
+    },
+    {
+        "filename": "fast_food_chains_qsr_nutrition.csv",
+        "restaurant": "Multi-Brand Fast Food QSR",
+        "url": "https://raw.githubusercontent.com/mohit7779/Fast-Food-Nutritional-Analysis/main/FastFoodNutritionMenuV2.csv",
+        "description": "Multi-Brand Fast Food Nutritional Dataset (KFC, Taco Bell, Pizza Hut, Burger King, McDonald's) CSV",
+    },
 ]
 
 

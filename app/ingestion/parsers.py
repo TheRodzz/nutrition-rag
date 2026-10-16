@@ -1,5 +1,6 @@
 import csv
 import hashlib
+import io
 import json
 import logging
 import re
@@ -202,7 +203,7 @@ def _infer_column_mapping(headers: List[Any]) -> Dict[str, Any]:
             mapping.setdefault("allergens", idx)
         elif any(k in h for k in ("diet", "veg", "vegan")):
             mapping.setdefault("diet", idx)
-        elif "restaurant" in h:
+        elif any(k in h for k in ("restaurant", "company", "brand", "chain")):
             mapping.setdefault("restaurant", idx)
         elif "note" in h:
             mapping.setdefault("notes", idx)
@@ -243,7 +244,7 @@ def _try_parse_transposed_kv_table(
         for row in table
         if row and any(str(c or "").strip() for c in row)
     ]
-    if len(cleaned_rows) < 5:
+    if len(cleaned_rows) < 5 or len(cleaned_rows) > 45:
         return [], []
 
     item_name = ""
@@ -670,7 +671,7 @@ def parse_document(file_path: Path) -> Tuple[DocumentDetectionReport, List[Struc
         delimiter = "\t" if suffix == ".tsv" else ","
         raw_text = file_path.read_text(encoding="utf-8", errors="replace")
         restaurant = detect_restaurant_name(filename, raw_text[:4000])
-        reader = list(csv.reader(raw_text.splitlines(), delimiter=delimiter))
+        reader = list(csv.reader(io.StringIO(raw_text), delimiter=delimiter))
         items, chunks, _, _, _ = _extract_items_from_table_grid(reader, restaurant, filename, "CSV Table")
         report = DocumentDetectionReport(
             filename=filename,

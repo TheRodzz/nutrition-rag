@@ -1,0 +1,76 @@
+restaurant,category,item_name,serving_size,calories,protein,carbs,fat,diet
+Indian Restaurant & Breads,Breads,Tandoori Roti (Plain),1 piece (40g),110,3.5,22.0,0.8,Veg
+Indian Restaurant & Breads,Breads,Butter Roti,1 piece (45g),145,3.5,22.0,5.0,Veg
+Indian Restaurant & Breads,Breads,Plain Naan,1 piece (90g),260,7.2,46.0,4.5,Veg
+Indian Restaurant & Breads,Breads,Butter Naan,1 piece (100g),310,7.5,46.0,10.5,Veg
+Indian Restaurant & Breads,Breads,Garlic Naan,1 piece (105g),325,7.8,47.0,11.0,Veg
+Indian Restaurant & Breads,Breads,Cheese Naan,1 piece (120g),380,12.0,45.0,16.0,Veg
+Indian Restaurant & Breads,Breads,Lachha Paratha,1 piece (80g),290,5.0,36.0,14.0,Veg
+Indian Restaurant & Breads,Breads,Aloo Paratha with Butter,1 piece (150g),360,6.5,48.0,16.0,Veg
+Indian Restaurant & Breads,Breads,Paneer Paratha,1 piece (150g),390,12.5,44.0,18.0,Veg
+Indian Restaurant & Breads,Breads,Bhatura (1 piece),1 piece (90g),290,5.5,38.0,13.0,Veg
+Indian Restaurant & Breads,Breads,Poori (1 piece),1 piece (35g),125,2.0,15.0,6.5,Veg
+Indian Restaurant & Curries,Dal & Lentils,Dal Tadka (Yellow Dal),1 bowl (200g),180,8.5,24.0,5.5,Veg
+Indian Restaurant & Curries,Dal & Lentils,Dal Makhani,1 bowl (200g),330,10.0,28.0,19.0,Veg
+Indian Restaurant & Curries,Dal & Lentils,Chole / Chana Masala,1 bowl (200g),260,11.0,36.0,8.0,Veg
+Indian Restaurant & Curries,Dal & Lentils,Rajma Masala,1 bowl (200g),240,10.5,34.0,7.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Paneer Butter Masala,1 bowl (220g),420,15.0,18.0,32.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Palak Paneer,1 bowl (220g),290,14.0,12.0,21.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Kadai Paneer,1 bowl (220g),360,16.0,16.0,26.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Shahi Paneer,1 bowl (220g),440,14.5,20.0,34.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Mutter Paneer,1 bowl (220g),320,13.5,20.0,21.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Paneer Tikka (6 pcs),1 plate (180g),310,21.0,11.0,19.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Malai Kofta,1 bowl (220g),460,9.0,32.0,33.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Aloo Gobi Masala,1 bowl (180g),190,4.5,25.0,8.5,Veg
+Indian Restaurant & Curries,Paneer & Veg,Bhindi Masala,1 bowl (160g),160,3.5,18.0,8.0,Veg
+Indian Restaurant & Curries,Paneer & Veg,Mixed Vegetable Curry,1 bowl (200g),210,5.0,24.0,10.5,Veg
+Indian Restaurant & Curries,Chicken & Meat,Butter Chicken (Murgh Makhani),1 bowl (240g),480,28.0,16.0,34.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Chicken Tikka Masala,1 bowl (240g),410,31.0,14.0,25.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Kadai Chicken,1 bowl (240g),380,32.0,12.0,23.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Chicken Curry (Home Style),1 bowl (220g),290,27.0,8.0,16.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Tandoori Chicken (Half - 2 pcs),Half (250g),350,44.0,4.0,17.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Chicken Tikka (6 pcs),1 plate (180g),280,36.0,5.0,12.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Mutton Rogan Josh,1 bowl (240g),460,29.0,10.0,34.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Fish Curry (Goan / Bengali),1 bowl (220g),260,24.0,8.0,15.0,Non-Veg
+Indian Restaurant & Curries,Chicken & Meat,Egg Curry (2 Eggs),1 bowl (200g),260,14.0,9.0,18.0,Non-Veg
+Indian Restaurant & Biryani,Rice & Biryani,Steamed Basmati Rice,1 bowl (180g),230,4.5,50.0,0.6,Veg
+Indian Restaurant & Biryani,Rice & Biryani,Jeera Rice,1 bowl (190g),270,4.8,51.0,5.5,Veg
+Indian Restaurant & Biryani,Rice & Biryani,Veg Biryani with Raita,1 portion (350g),460,11.0,74.0,13.0,Veg
+Indian Restaurant & Biryani,Rice & Biryani,Hyderabadi Chicken Dum Biryani,1 portion (400g),650,34.0,78.0,22.0,Non-Veg
+Indian Restaurant & Biryani,Rice & Biryani,Mutton Biryani,1 portion (400g),720,32.0,76.0,31.0,Non-Veg
+Indian Restaurant & Biryani,Rice & Biryani,Egg Biryani (2 Eggs),1 portion (380g),530,18.0,75.0,17.0,Non-Veg
+Indian Restaurant & Biryani,Rice & Biryani,Boondi Raita,1 bowl (120g),135,4.5,12.0,7.5,Veg
+Indian Restaurant & Biryani,Rice & Biryani,Cucumber Onion Raita,1 bowl (120g),75,3.8,6.5,3.5,Veg
+South Indian Restaurant,Dosas & Tiffins,Plain Dosa with Sambar & Chutney,1 serve (150g),280,6.5,48.0,7.0,Veg
+South Indian Restaurant,Dosas & Tiffins,Masala Dosa with Sambar & Chutney,1 serve (220g),385,8.0,62.0,11.5,Veg
+South Indian Restaurant,Dosas & Tiffins,Mysore Masala Dosa,1 serve (230g),420,8.5,64.0,14.5,Veg
+South Indian Restaurant,Dosas & Tiffins,Ghee Roast Dosa,1 serve (160g),390,6.5,48.0,19.0,Veg
+South Indian Restaurant,Dosas & Tiffins,Rava Masala Dosa,1 serve (210g),370,7.2,56.0,12.5,Veg
+South Indian Restaurant,Dosas & Tiffins,Steamed Idli (2 pcs with Sambar & Chutney),2 pcs (120g),180,6.0,36.0,1.2,Veg
+South Indian Restaurant,Dosas & Tiffins,Medu Vada (2 pcs with Sambar & Chutney),2 pcs (100g),310,8.0,28.0,18.0,Veg
+South Indian Restaurant,Dosas & Tiffins,Onion Uttapam,1 serve (180g),295,6.8,49.0,8.0,Veg
+South Indian Restaurant,Dosas & Tiffins,Curd Rice with Tadka,1 bowl (200g),250,6.0,38.0,7.5,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Pani Puri / Golgappa (6 pcs),6 pcs (150g),180,3.5,34.0,3.5,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Sev Puri (6 pcs),6 pcs (160g),290,5.0,42.0,11.0,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Dahi Puri (6 pcs),6 pcs (180g),320,6.5,46.0,12.0,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Bhel Puri,1 plate (150g),230,5.2,40.0,5.5,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Pav Bhaji (2 Butter Pav + Bhaji),1 plate (320g),560,11.0,72.0,24.5,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Chole Bhature (2 Bhature + Chole),1 plate (380g),840,22.0,112.0,34.0,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Vada Pav (1 piece),1 piece (120g),290,5.5,44.0,10.5,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Samosa (1 piece with Chutneys),1 piece (85g),260,4.0,32.0,13.0,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Samosa Chaat (2 Samosas with Chole & Curd),1 plate (300g),580,14.0,78.0,24.0,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Aloo Tikki Chaat (2 Tikkis with Curd & Chutney),1 plate (250g),380,7.5,52.0,16.0,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Kachori with Aloo Sabzi (2 pcs),1 plate (220g),490,8.5,64.0,22.5,Veg
+Indian Street Food & Chaat,Chaat & Snacks,Dahi Vada (2 pcs),2 pcs (200g),280,8.0,36.0,11.0,Veg
+Indian Restaurant & Sweets,Desserts,Gulab Jamun (2 pcs),2 pcs (90g),300,4.0,52.0,8.5,Veg
+Indian Restaurant & Sweets,Desserts,Rasgulla (2 pcs),2 pcs (100g),210,4.5,42.0,2.0,Veg
+Indian Restaurant & Sweets,Desserts,Rasmalai (2 pcs),2 pcs (120g),250,7.0,32.0,10.5,Veg
+Indian Restaurant & Sweets,Desserts,Gajar Ka Halwa,1 bowl (120g),320,5.5,42.0,14.5,Veg
+Indian Restaurant & Sweets,Desserts,Kheer / Payasam,1 bowl (150g),240,6.0,36.0,8.0,Veg
+Indian Restaurant & Sweets,Desserts,Kulfi (1 piece),1 stick (80g),180,4.5,22.0,8.5,Veg
+Indian Restaurant & Beverages,Beverages,Sweet Lassi,1 glass (250ml),220,6.5,36.0,5.5,Veg
+Indian Restaurant & Beverages,Beverages,Mango Lassi,1 glass (250ml),260,6.0,44.0,6.0,Veg
+Indian Restaurant & Beverages,Beverages,Salted Buttermilk (Chaas),1 glass (250ml),60,3.5,6.0,2.2,Veg
+Indian Restaurant & Beverages,Beverages,Masala Chai with Sugar,1 cup (150ml),95,2.8,14.0,3.0,Veg
+Indian Restaurant & Beverages,Beverages,Masala Chai (Without Sugar),1 cup (150ml),60,2.8,5.5,3.0,Veg
+Indian Restaurant & Beverages,Beverages,South Indian Filter Coffee,1 tumbler (150ml),110,3.2,15.0,4.0,Veg

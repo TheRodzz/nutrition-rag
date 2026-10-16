@@ -26,6 +26,20 @@ def detect_restaurant_name(filename: str, sample_text: str) -> str:
         return "Subway India"
     if any(k in combined for k in ("california burrito", "californiaburrito", "cilantro rice", "snachos", "chocodilla")):
         return "California Burrito India"
+    if any(k in combined for k in ("burger king", "burgerking", "whopper")):
+        return "Burger King India"
+    if any(k in combined for k in ("kfc", "kentucky fried", "hot & crispy", "zinger", "popcorn chicken")):
+        return "KFC India"
+    if any(k in combined for k in ("pizza hut", "pizzahut")):
+        return "Pizza Hut India"
+    if any(k in combined for k in ("taco bell", "tacobell", "chalupa", "quesadilla")):
+        return "Taco Bell India"
+    if any(k in combined for k in ("haldiram", "haldirams", "bikaneri bhujia")):
+        return "Haldiram's India"
+    if any(k in combined for k in ("domino's", "dominos", "jubilant")):
+        return "Domino's Pizza India"
+    if "indian_restaurant" in filename.lower() or "street_food" in filename.lower():
+        return "Indian Restaurant & Street Food"
 
     # Derive clean title from filename if unknown brand
     stem = Path(filename).stem
