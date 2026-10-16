@@ -1,0 +1,123 @@
+CALIFORNIA BURRITO INDIA — OFFICIAL NUTRITION, CUSTOMIZATION & ALLERGEN GUIDE
+Source URL: https://www.californiaburrito.in/nutrition (Live Scraped from https://www.californiaburrito.in/js/nutrition.BslodCyz.js)
+
+OVERVIEW & HOW TO CALCULATE CUSTOM MEALS AT CALIFORNIA BURRITO INDIA:
+California Burrito India serves build-your-own Mexican meals including Rice Bowls, Burritos, Salad Bowls, Nachos, Tacos, Quesadillas, Munchies (Tostadas, Popcorn Chicken/Mushroom/Potato, Snachos), and Standalone Sides.
+
+1. RICE BOWLS (REGULAR, MINI, AND PRO):
+- A Regular or Mini Rice Bowl is built by combining: (a) 1 Protein choice, (b) 1 Rice choice, (c) 1 Beans choice, and (d) any number of Toppings, Extra Toppings, Extra Fillings, or 'Make It Rich' add-ons.
+- Interestingly, in California Burrito's official nutrition calculator, the protein portion macros for Regular and Mini Rice Bowls are identical (e.g., Grilled Barbeque Chicken is 190 kcal, 21.4g protein, 10.2g fat, 1.8g carbs in both Regular and Mini), whereas the Rice portion changes significantly: Regular Cilantro Rice is 314 kcal (55.5g carbs, 5.5g protein, 6.9g fat) vs Mini Cilantro Rice at 209 kcal (37g carbs, 3.7g protein, 4.6g fat). Similarly, Regular Brown Rice is 268 kcal vs Mini Brown Rice at 178 kcal.
+- Beans (Black Beans: 94 kcal, 4.9g protein, 13.3g carbs, 3.4g fat; Pinto Beans: 71 kcal, 3.7g protein, 10.5g carbs, 1.8g fat) have the same macros across Regular and Mini bowls.
+- PRO Rice Bowls are high-protein bowls: Pro Grilled Barbeque Chicken base has 612 kcal, 54g protein, 19g fat, 62g carbs; Pro Mexican Paneer base has 847 kcal, 43g protein, 49g fat, 65g carbs.
+
+2. BURRITOS (REGULAR, MINI, AND HABANERO):
+- A Regular Burrito uses a 12-inch Flour Tortilla (142 kcal, 3.7g protein, 29.2g carbs, 1.9g fat).
+- A Mini Burrito or Habanero Burrito uses a 10-inch Flour Tortilla (105 kcal, 2.7g protein, 21.6g carbs, 1.4g fat).
+- Inside a Burrito, Cilantro Rice adds 158 kcal (2.8g protein, 27.9g carbs, 3.5g fat) and Brown Rice adds 135 kcal (2.8g protein, 26.7g carbs, 1.6g fat).
+- Habanero Burritos come in two signature builds: Chicken Habanero filling (226 kcal, 25.4g protein, 11.8g fat, 5.6g carbs, plus 105 kcal for the 10-inch tortilla = 331 kcal, 28.1g protein total) and Paneer Habanero filling (268 kcal, 15.8g protein, 19.5g fat, 7.4g carbs, plus 105 kcal for the 10-inch tortilla = 373 kcal, 18.5g protein total).
+
+3. SALAD BOWLS & DRESSINGS:
+- Salad Bowls include Lettuce (23 kcal, 2.1g protein in Regular; 15 kcal, 1.4g protein in Mini) plus optional Rice, Beans, Protein, and Toppings.
+- Salad Dressings on the side include Chilli Lime Vinaigrette (28 kcal, 0.2g fat, 0.4g protein, 6.5g carbs), Ranch Dressing (10 kcal, 1.1g fat), and Chipotle Mayo (24 kcal, 0.8g fat, 0.8g protein, 1.2g carbs).
+- Pro Salad Bowls provide 596 kcal & 54g protein for Grilled Barbeque Chicken, or 836 kcal & 43g protein for Mexican Paneer.
+
+4. TACOS (ONE, THREE, OR OVERCROWDED):
+- Single Taco (ONE) shell options: Soft Shell (57 kcal, 1.5g protein, 11.7g carbs, 0.8g fat) or Crunchy Shell (70 kcal, 1.3g protein, 10g carbs, 3.2g fat).
+- Three Tacos (THREE) shell options: 3 Soft Shells (171 kcal, 4.5g protein, 35.1g carbs, 2.4g fat) or 3 Crunchy Shells (210 kcal, 3.9g protein, 30g carbs, 9.6g fat).
+- Overcrowded Tacos have pre-configured fillings (plus the shell): 7 Layer Veg Taco filling (664 kcal, 22.8g protein, 24.4g fat, 94.8g carbs), Chipotle Potato Taco filling (660 kcal, 17.2g protein, 26g fat, 92.4g carbs), 7 Layer Chicken Taco filling (728 kcal, 33.2g protein, 31.6g fat, 80.4g carbs), and Chipotle Crispy Chicken Taco filling (712 kcal, 32.4g protein, 35.6g fat, 71.2g carbs).
+
+5. QUESADILLAS & MUNCHIES:
+- Quesadillas come in 7 varieties: Cheesy Chipotle Chicken (343 kcal, 19.7g protein, 21.2g fat, 16.6g carbs), Cheesy Chicken Dominator (339 kcal, 21g protein, 20.8g fat, 15g carbs), California Chicken (373 kcal, 22.3g protein, 21.2g fat, 23.5g carbs), Peppy Paneer (437 kcal, 18.5g protein, 28.5g fat, 27.4g carbs), Southwest Mushroom (334 kcal, 11.1g protein, 23.2g fat, 19.2g carbs), Mexican Corn Fiesta (285 kcal, 11.2g protein, 15g fat, 27.8g carbs), and Cheese Melt (272 kcal, 11.9g protein, 13.8g fat, 24.6g carbs).
+- Popular Munchies/Snacks: Snachos (346 kcal, 4.4g protein), Cheesy Tostada (316 kcal, 9g protein), Crispy Peri-Peri Chicken Popper (215 kcal, 11g protein), Popcorn Chicken (205 kcal, 11g protein), Popcorn Mushroom with dip (190 kcal, 4g protein), Popcorn Potato (170 kcal, 3g protein), Topped Nachos - Chicken (322 kcal, 10g protein), Topped Nachos - Veg (244 kcal, 3.2g protein), Avocado Tostada (279 kcal, 4.4g protein), Veg Tostada (148 kcal, 4g protein), Tortilla Chips (120 kcal, 2g protein), and Plain Nachos (295 kcal, 3.4g protein).
+
+6. HIGH-IMPACT ADD-ONS ('MAKE IT RICH') & SIDES:
+- Watch out for calorie-dense extras when estimating meal macros: Guacamole inside a bowl/burrito adds 148 kcal (13.3g fat, 1.9g protein, 9.2g carbs), Melted Cheese Queso adds 107 kcal (8g fat, 4g protein, 4g carbs), Sour Cream adds 57 kcal (5.6g fat, 0.5g protein, 1.1g carbs), Cheese adds 23 kcal (1.8g fat, 1.2g protein), Chipotle Mayo adds 24 kcal, and Southwest Sauce adds 18 kcal.
+- Full Standalone Sides are large shareable tubs and have much higher macros than in-bowl toppings: e.g., a Standalone Side of Grilled BBQ Chicken is 592 kcal and 67g protein; a Standalone Side of Chili Chipotle Chicken is 647 kcal and 56.2g protein; a Standalone Side of Guacamole is 617 kcal (55.2g fat).
+
+7. ALLERGEN & VEGAN / VEGETARIAN DECLARATIONS:
+- BARBEQUE PANEER: DAIRY, GLUTEN
+- BBQ CHICKEN: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- BLACK BEANS: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CARNITAS CHICKEN: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CHARGED LEMONADE - KIWI BERRY: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CHARGED LEMONADE - MANGO PASSION FRUIT: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CHEESE: DAIRY
+- CHEESE SEASONING: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CHILI CHIPOTLE CHICKEN: SOY
+- CHILLI LIME VINAIGRETTE: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CHIPOTLE ONION DIP / CHIPOTLE MAYO: DAIRY, SOY
+- CHIPOTLE VINAIGRETTE: SOY
+- CHIPS/NACHOS: DAIRY
+- CHOCODILLA: DAIRY, GLUTEN
+- CHURROS: GLUTEN
+- CILANTRO LIME BROWN RICE: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CILANTRO LIME RICE: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CORN SALSA: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- CRISPY MUSHROOMS: GLUTEN
+- CRISPY PERI PERI CHICKEN: GLUTEN
+- CRUSHED CORN CHIPS: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- FAJITA VEGGIES: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- GUACAMOLE: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- HORCHATA: DAIRY
+- HOT HABANERO SAUCE: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- JALAPENOS: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- LETTUCE: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- LOADED NACHOS: DAIRY
+- MANGO SALSA: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- MELTED CHEESE QUESO: DAIRY
+- MEXICAN PANEER: DAIRY, GLUTEN
+- PERI PERI POTATOES: GLUTEN
+- PICO / FRESH TOMATO AND ONION SALSA: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- PINK LEMONADE: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- PINTO BEANS: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- RANCH DRESSING: DAIRY, SOY
+- RED CHILI TOMATILLO SALSA: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- ROASTED TOMATILLO SALSA: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- SNACHOS: DAIRY
+- SOUR CREAM: DAIRY
+- SOUTH WEST SAUCE: DAIRY, SOY
+- SUNFLOWER SEEDS: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- TACO SHELLS: Allergen-Free (No Dairy, Soy, Gluten, or Nuts)
+- TORTILLAS: GLUTEN
+
+8. SPECIAL DIET (VEGETARIAN & VEGAN) NOTES:
+- BARBEQUE PANEER: Vegetarian=Yes, Vegan Status=Contains Dairy
+- BLACK BEANS: Vegetarian=Yes, Vegan Status=V+
+- CHARGED LEMONADE - KIWI BERRY: Vegetarian=Yes, Vegan Status=V+
+- CHARGED LEMONADE - MANGO PASSION FRUIT: Vegetarian=Yes, Vegan Status=V+
+- CHEESE: Vegetarian=Yes, Vegan Status=Contains Dairy
+- CHEESE SEASONING: Vegetarian=Yes, Vegan Status=Cheese
+- CHILLI LIME VINAIGRETTE: Vegetarian=Yes, Vegan Status=V+
+- CHIPOTLE ONION DIP / CHIPOTLE MAYO: Vegetarian=Yes, Vegan Status=Contains Dairy
+- CHIPOTLE VINAIGRETTE: Vegetarian=Yes, Vegan Status=Contains Honey
+- CHIPS/NACHOS: Vegetarian=Yes, Vegan Status=Contains Dairy
+- CHOCODILLA: Vegetarian=Yes, Vegan Status=Contains Dairy
+- CHURROS: Vegetarian=Yes, Vegan Status=Contains Dairy
+- CILANTRO LIME BROWN RICE: Vegetarian=Yes, Vegan Status=V+
+- CILANTRO LIME RICE: Vegetarian=Yes, Vegan Status=V+
+- CORN SALSA: Vegetarian=Yes, Vegan Status=V+
+- CRISPY MUSHROOMS: Vegetarian=Yes, Vegan Status=V+
+- CRUSHED CORN CHIPS: Vegetarian=Yes, Vegan Status=V+
+- FAJITA VEGGIES: Vegetarian=Yes, Vegan Status=V+
+- GUACAMOLE: Vegetarian=Yes, Vegan Status=V+
+- HORCHATA: Vegetarian=Yes, Vegan Status=Contains Dairy
+- HOT HABANERO SAUCE: Vegetarian=Yes, Vegan Status=Contains Honey
+- JALAPENOS: Vegetarian=Yes, Vegan Status=V+
+- LETTUCE: Vegetarian=Yes, Vegan Status=V+
+- LOADED NACHOS: Vegetarian=Yes, Vegan Status=Contains Dairy
+- MANGO SALSA: Vegetarian=Yes, Vegan Status=Contains Honey
+- MELTED CHEESE QUESO: Vegetarian=Yes, Vegan Status=Contains Dairy
+- MEXICAN PANEER: Vegetarian=Yes, Vegan Status=Contains Dairy
+- PERI PERI POTATOES: Vegetarian=Yes, Vegan Status=V+
+- PICO / FRESH TOMATO AND ONION SALSA: Vegetarian=Yes, Vegan Status=V+
+- PINK LEMONADE: Vegetarian=Yes, Vegan Status=V+
+- PINTO BEANS: Vegetarian=Yes, Vegan Status=V+
+- RANCH DRESSING: Vegetarian=Yes, Vegan Status=Contains Dairy
+- RED CHILI TOMATILLO SALSA: Vegetarian=Yes, Vegan Status=V+
+- ROASTED TOMATILLO SALSA: Vegetarian=Yes, Vegan Status=V+
+- SNACHOS: Vegetarian=Yes, Vegan Status=Contains Dairy
+- SOUR CREAM: Vegetarian=Yes, Vegan Status=Contains Dairy
+- SOUTH WEST SAUCE: Vegetarian=Yes, Vegan Status=Contains Dairy
+- SUNFLOWER SEEDS: Vegetarian=Yes, Vegan Status=V+
+- TACO SHELLS: Vegetarian=Yes, Vegan Status=V+
+- TORTILLAS: Vegetarian=Yes, Vegan Status=V+
