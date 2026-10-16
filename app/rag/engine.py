@@ -48,21 +48,46 @@ class NutritionRAGEngine:
         """
         clauses = _split_order_clauses(query)
 
-        #Detect if query mentions a specific restaurant even if restaurant_filter wasn't set
+        # Detect if query mentions a specific restaurant even if restaurant_filter wasn't set
         effective_filter = restaurant_filter
         if not effective_filter:
             q_low = query.lower()
-            has_mcd = any(k in q_low for k in ("mcdonald", "mcd ", "mcaloo", "mcspicy", "mcchicken", "mcflurry", "mccafe", "maharaja mac"))
-            has_sub = any(k in q_low for k in ("subway", "6-inch", "6 inch", "footlong", "veggie delite", "veggie delight", "sub craver"))
-            has_cb = any(k in q_low for k in ("california burrito", "burrito", "rice bowl", "tostada", "snachos", "quesadilla"))
-            # Only apply automatic filter if strictly one restaurant is mentioned
-            if sum([has_mcd, has_sub, has_cb]) == 1:
-                if has_mcd:
-                    effective_filter = "McDonald's India"
-                elif has_sub:
-                    effective_filter = "Subway India"
-                elif has_cb:
-                    effective_filter = "California Burrito India"
+            matching_rests = []
+            for rest in self.vector_db.get_stats().get("restaurants", []):
+                base_name = (
+                    rest.lower()
+                    .replace(" bangalore", "")
+                    .replace(" india", "")
+                    .replace(" & street food", "")
+                    .strip()
+                )
+                if base_name in q_low or rest.lower() in q_low:
+                    matching_rests.append(rest)
+            # Extra brand aliases
+            if "mcdonald" in q_low or "mcd " in q_low or "mcaloo" in q_low or "mcspicy" in q_low:
+                matching_rests.append("McDonald's India")
+            if "subway" in q_low or "footlong" in q_low or "sub craver" in q_low:
+                matching_rests.append("Subway India")
+            if "california burrito" in q_low or "snachos" in q_low:
+                matching_rests.append("California Burrito India")
+            if "bbk" in q_low or "biryani by kilo" in q_low:
+                matching_rests.append("Biryani By Kilo")
+            if "corner house" in q_low or "death by chocolate" in q_low or "dbc" in q_low:
+                matching_rests.append("Corner House Ice Creams Bangalore")
+            if "brik oven" in q_low:
+                matching_rests.append("Brik Oven Bangalore")
+            if "asha tiffin" in q_low:
+                matching_rests.append("Asha Tiffins Bangalore")
+            if "plan b" in q_low:
+                matching_rests.append("Plan B Bangalore")
+            if "al daaz" in q_low:
+                matching_rests.append("Al Daaz Bangalore")
+            if "boom pizza" in q_low:
+                matching_rests.append("Boom Pizza Bangalore")
+
+            unique_matching = list(dict.fromkeys(matching_rests))
+            if len(unique_matching) == 1:
+                effective_filter = unique_matching[0]
 
         chunk_map: Dict[str, Tuple[Any, float]] = {}
         for q_part in [query] + clauses:

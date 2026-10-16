@@ -1,5 +1,8 @@
 let activeRestaurantFilter = "";
 let providersState = null;
+let catalogCurrentPage = 1;
+const catalogPageSize = 50;
+let catalogDebounceTimer = null;
 
 function esc(str) {
   if (str === null || str === undefined) return "";
@@ -30,6 +33,55 @@ function modalityBadgeHtml(modality) {
   return `<span class="px-2 py-0.5 text-[11px] font-mono font-semibold rounded bg-amber-500/15 text-amber-300 border border-amber-500/30">NON-TABULAR PROSE</span>`;
 }
 
+function populateCatalogRestaurantSelect(restaurants, totalItems) {
+  const sel = document.getElementById("catalogRestaurantSelect");
+  if (!sel) return;
+  const currentVal = sel.value;
+  sel.innerHTML = `<option value="">All Restaurants (${Number(totalItems || 0).toLocaleString()} items)</option>` +
+    (restaurants || []).map((r) => `<option value="${esc(r)}">${esc(r)}</option>`).join("");
+  if (currentVal && (restaurants || []).includes(currentVal)) {
+    sel.value = currentVal;
+  }
+}
+
+function populateRestaurantFilterPills(restaurants) {
+  const container = document.getElementById("restaurantFilterPills");
+  if (!container) return;
+
+  function shortName(r) {
+    return r
+      .replace(" Bangalore", "")
+      .replace(" India", "")
+      .replace(" Ice Creams", "");
+  }
+
+  const allPillsHtml = [
+    `<span class="text-slate-400 mr-1 shrink-0">Filter:</span>`,
+    `<button data-rest="" class="rest-pill ${activeRestaurantFilter === "" ? "active px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-medium shrink-0" : "px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 shrink-0"}">All</button>`,
+    ...(restaurants || []).map((r) => {
+      const isActive = activeRestaurantFilter === r;
+      const cls = isActive
+        ? "rest-pill active px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-medium shrink-0"
+        : "rest-pill px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 shrink-0";
+      return `<button data-rest="${esc(r)}" class="${cls}" title="${esc(r)}">${esc(shortName(r))}</button>`;
+    }),
+  ].join("");
+
+  container.innerHTML = allPillsHtml;
+
+  container.querySelectorAll(".rest-pill").forEach((pill) => {
+    pill.addEventListener("click", () => {
+      container.querySelectorAll(".rest-pill").forEach((p) => {
+        p.className =
+          "rest-pill px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 shrink-0";
+      });
+      pill.className =
+        "rest-pill active px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-medium shrink-0";
+      activeRestaurantFilter = pill.dataset.rest || "";
+    });
+  });
+}
+
 async function fetchStatsAndDocuments() {
   try {
     const [statsRes, docsRes] = await Promise.all([
@@ -51,6 +103,9 @@ async function fetchStatsAndDocuments() {
       : "Never";
     document.getElementById("dbInfoDuration").textContent = `${stats.last_rebuild_duration_ms} ms`;
     document.getElementById("dbInfoModalitySplit").textContent = `${stats.tabular_chunks} tabular / ${stats.non_tabular_chunks} prose`;
+
+    populateCatalogRestaurantSelect(stats.restaurants || [], stats.total_structured_items);
+    populateRestaurantFilterPills(stats.restaurants || []);
 
     renderDocumentsTable(docsData.documents || []);
     renderRebuildHistory(stats.rebuild_history || []);
@@ -332,43 +387,93 @@ async function deleteDocument(filename) {
   }
 }
 
-async function loadCatalogItems() {
+async function loadCatalogItems(page = 1) {
+  catalogCurrentPage = Math.max(1, page);
   const q = document.getElementById("catalogSearchInput").value.trim();
   const rest = document.getElementById("catalogRestaurantSelect").value;
-  const params = new URLSearchParams({ limit: "80" });
+  const params = new URLSearchParams({
+    page: String(catalogCurrentPage),
+    limit: String(catalogPageSize),
+  });
   if (q) params.set("q", q);
   if (rest) params.set("restaurant", rest);
 
-  const res = await fetch(`/api/items?${params.toString()}`);
-  const data = await res.json();
-  const tbody = document.getElementById("catalogTableBody");
-  const items = data.items || [];
-  if (!items.length) {
-    tbody.innerHTML = `<tr><td colspan="9" class="py-6 text-center text-slate-500">No matching menu items found.</td></tr>`;
-    return;
-  }
+  try {
+    const res = await fetch(`/api/items?${params.toString()}`);
+    const data = await res.json();
+    const tbody = document.getElementById("catalogTableBody");
+    const items = data.items || [];
+    const total = data.total || 0;
+    const totalPages = data.total_pages || 1;
 
-  tbody.innerHTML = items
-    .map(
-      (it) => `
-    <tr class="hover:bg-slate-800/40 transition-colors">
-      <td class="py-2.5 px-4 font-medium text-white text-xs">${esc(it.item_name)}</td>
-      <td class="py-2.5 px-3 text-xs text-slate-300">${esc(it.restaurant)}</td>
-      <td class="py-2.5 px-3 text-xs text-slate-400">${esc(it.category)} ${it.serving_size ? "(" + esc(it.serving_size) + ")" : ""}</td>
-      <td class="py-2.5 px-3 font-mono text-xs text-amber-300 font-semibold">${it.calories_kcal} kcal</td>
-      <td class="py-2.5 px-3 font-mono text-xs text-emerald-400 font-semibold">${it.protein_g}g</td>
-      <td class="py-2.5 px-3 font-mono text-xs text-sky-400 font-semibold">${it.carbs_g}g</td>
-      <td class="py-2.5 px-3 font-mono text-xs text-rose-400 font-semibold">${it.fat_g}g</td>
-      <td class="py-2.5 px-3 font-mono text-[11px] text-slate-400">${esc(it.source_file)} (${esc(it.source_page_or_section)})</td>
-      <td class="py-2.5 px-3 text-right">
-        <button onclick="addItemToQuery('${esc(it.item_name.replace(/'/g, "\\'"))}', '${esc(it.restaurant.replace(/'/g, "\\'"))}')" class="px-2.5 py-1 rounded bg-emerald-500/15 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 text-xs font-medium">
-          + Add to Order
-        </button>
-      </td>
-    </tr>
-  `
-    )
-    .join("");
+    // Update pagination controls
+    const startIdx = total === 0 ? 0 : (catalogCurrentPage - 1) * catalogPageSize + 1;
+    const endIdx = Math.min(catalogCurrentPage * catalogPageSize, total);
+    const rangeStr = `${startIdx}-${endIdx}`;
+
+    ["catalogRangeText", "catalogRangeTextBottom"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = rangeStr;
+    });
+    ["catalogTotalCount", "catalogTotalCountBottom"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = total.toLocaleString();
+    });
+    ["catalogPageNum", "catalogPageNumBottom"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = catalogCurrentPage;
+    });
+    ["catalogTotalPages", "catalogTotalPagesBottom"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = totalPages;
+    });
+
+    const isPrevDisabled = catalogCurrentPage <= 1;
+    const isNextDisabled = catalogCurrentPage >= totalPages;
+
+    ["prevCatalogPageBtn", "prevCatalogPageBtnBottom"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.disabled = isPrevDisabled;
+    });
+    ["nextCatalogPageBtn", "nextCatalogPageBtnBottom"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.disabled = isNextDisabled;
+    });
+
+    if (!items.length) {
+      tbody.innerHTML = `<tr><td colspan="9" class="py-8 text-center text-slate-400">No matching menu items found for "<strong>${esc(q || rest || 'current filters')}</strong>".</td></tr>`;
+      return;
+    }
+
+    tbody.innerHTML = items
+      .map(
+        (it) => `
+      <tr class="hover:bg-slate-800/40 transition-colors">
+        <td class="py-2.5 px-4 font-medium text-white text-xs">
+          <div class="font-semibold text-slate-100">${esc(it.item_name)}</div>
+          ${it.match_reasons && it.match_reasons.length ? `<div class="text-[10px] text-emerald-400 font-mono mt-0.5">${esc(it.match_reasons[0])}</div>` : ""}
+        </td>
+        <td class="py-2.5 px-3 text-xs text-slate-300 font-medium">${esc(it.restaurant)}</td>
+        <td class="py-2.5 px-3 text-xs text-slate-400">${esc(it.category || "—")} ${it.serving_size ? "(" + esc(it.serving_size) + ")" : ""}</td>
+        <td class="py-2.5 px-3 font-mono text-xs text-amber-300 font-semibold">${Number(it.calories_kcal || 0).toFixed(1)} kcal</td>
+        <td class="py-2.5 px-3 font-mono text-xs text-emerald-400 font-semibold">${Number(it.protein_g || 0).toFixed(1)}g</td>
+        <td class="py-2.5 px-3 font-mono text-xs text-sky-400 font-semibold">${Number(it.carbs_g || 0).toFixed(1)}g</td>
+        <td class="py-2.5 px-3 font-mono text-xs text-rose-400 font-semibold">${Number(it.fat_g || 0).toFixed(1)}g</td>
+        <td class="py-2.5 px-3 font-mono text-[11px] text-slate-400 max-w-xs truncate" title="${esc(it.source_file)} (${esc(it.source_page_or_section)})">
+          ${esc(it.source_file)}
+        </td>
+        <td class="py-2.5 px-3 text-right">
+          <button onclick="addItemToQuery('${esc(it.item_name.replace(/'/g, "\\'"))}', '${esc(it.restaurant.replace(/'/g, "\\'"))}')" class="px-2.5 py-1 rounded bg-emerald-500/15 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 text-xs font-medium transition-colors">
+            + Add to Order
+          </button>
+        </td>
+      </tr>
+    `
+      )
+      .join("");
+  } catch (err) {
+    console.error("Failed to load catalog items:", err);
+  }
 }
 
 function addItemToQuery(itemName, restaurant) {
@@ -516,7 +621,35 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Catalog search
-  document.getElementById("catalogSearchInput").addEventListener("input", loadCatalogItems);
-  document.getElementById("catalogRestaurantSelect").addEventListener("change", loadCatalogItems);
+  // Catalog pagination and search handlers
+  const handlePrevPage = () => {
+    if (catalogCurrentPage > 1) {
+      loadCatalogItems(catalogCurrentPage - 1);
+    }
+  };
+  const handleNextPage = () => {
+    loadCatalogItems(catalogCurrentPage + 1);
+  };
+
+  document.getElementById("prevCatalogPageBtn")?.addEventListener("click", handlePrevPage);
+  document.getElementById("prevCatalogPageBtnBottom")?.addEventListener("click", handlePrevPage);
+  document.getElementById("nextCatalogPageBtn")?.addEventListener("click", handleNextPage);
+  document.getElementById("nextCatalogPageBtnBottom")?.addEventListener("click", handleNextPage);
+
+  const searchInput = document.getElementById("catalogSearchInput");
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      clearTimeout(catalogDebounceTimer);
+      catalogDebounceTimer = setTimeout(() => {
+        loadCatalogItems(1);
+      }, 200);
+    });
+  }
+
+  const restSelect = document.getElementById("catalogRestaurantSelect");
+  if (restSelect) {
+    restSelect.addEventListener("change", () => {
+      loadCatalogItems(1);
+    });
+  }
 });

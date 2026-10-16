@@ -1,11 +1,13 @@
 import asyncio
 import logging
+import math
 import shutil
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, File, HTTPException, Query, UploadFile
+from rapidfuzz import fuzz
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -240,28 +242,93 @@ async def manual_rebuild_endpoint() -> Dict[str, Any]:
 
 @app.get("/api/items")
 async def search_catalog_items(
-    q: str = Query(default="", description="Optional search query for menu items"),
+    q: str = Query(default="", description="Optional search query for menu items, categories, or restaurants"),
     restaurant: Optional[str] = Query(default=None, description="Optional restaurant filter"),
-    limit: int = Query(default=50, ge=1, le=250),
+    page: int = Query(default=1, ge=1, description="Page number (1-indexed)"),
+    limit: int = Query(default=60, ge=1, le=500, description="Items per page"),
 ) -> Dict[str, Any]:
-    if q.strip():
-        matches = vector_db.search_structured_items(q, restaurant_filter=restaurant, top_k=limit)
+    items = vector_db.items
+
+    if restaurant and restaurant.strip():
+        rest_filter = restaurant.strip().lower()
+        items = [it for it in items if rest_filter in it.restaurant.lower()]
+
+    q_clean = q.strip().lower()
+    if q_clean:
+        scored: List[Tuple[Any, float, List[str]]] = []
+        for it in items:
+            name_low = it.item_name.lower()
+            rest_low = it.restaurant.lower()
+            cat_low = (it.category or "").lower()
+            tags_low = " ".join(it.dietary_tags or []).lower()
+
+            score = 0.0
+            reasons = []
+
+            # 1. Exact item name
+            if q_clean == name_low:
+                score = 100.0
+                reasons.append(f"Exact match on menu item name ('{it.item_name}')")
+            # 2. Direct substring in item name
+            elif q_clean in name_low:
+                score = 92.0 + (len(q_clean) / max(len(name_low), 1)) * 5.0
+                reasons.append(f"Direct item name substring ('{it.item_name}')")
+            elif name_low in q_clean:
+                score = 90.0
+                reasons.append(f"Query contains item name ('{it.item_name}')")
+            # 3. Matches restaurant name (e.g. "Brik Oven", "Corner House", "Biryani By Kilo")
+            elif q_clean in rest_low:
+                score = 85.0
+                reasons.append(f"Matches restaurant '{it.restaurant}'")
+            # 4. Matches category (e.g. "Pizza", "Sundaes", "Biryani", "Desserts")
+            elif q_clean in cat_low:
+                score = 78.0
+                reasons.append(f"Matches category '{it.category}'")
+            # 5. Matches dietary tag
+            elif q_clean in tags_low:
+                score = 65.0
+                reasons.append(f"Matches dietary tag")
+            else:
+                # Fuzzy similarity on item name
+                wr = fuzz.WRatio(q_clean, name_low)
+                ts = fuzz.token_set_ratio(q_clean, name_low)
+                top_fuzz = max(wr, ts)
+                if top_fuzz >= 62:
+                    score = float(top_fuzz) * 0.75
+                    reasons.append(f"Fuzzy match ({int(top_fuzz)}%) on '{it.item_name}'")
+
+            if score > 0:
+                scored.append((it, round(score, 1), reasons))
+
+        # Sort by score desc, then by item name asc
+        scored.sort(key=lambda x: (-x[1], x[0].item_name))
+        total = len(scored)
+        start = (page - 1) * limit
+        end = start + limit
+        page_results = scored[start:end]
+
         return {
-            "total": len(matches),
+            "total": total,
+            "page": page,
+            "limit": limit,
+            "total_pages": max(1, math.ceil(total / limit)),
             "items": [
                 {**it.model_dump(), "match_confidence": sc, "match_reasons": reasons}
-                for it, sc, reasons in matches
+                for it, sc, reasons in page_results
             ],
         }
 
-    filtered = [
-        it
-        for it in vector_db.items
-        if not restaurant or restaurant.lower() in it.restaurant.lower()
-    ]
+    total = len(items)
+    start = (page - 1) * limit
+    end = start + limit
+    page_items = items[start:end]
+
     return {
-        "total": len(filtered),
-        "items": [it.model_dump() for it in filtered[:limit]],
+        "total": total,
+        "page": page,
+        "limit": limit,
+        "total_pages": max(1, math.ceil(total / limit)),
+        "items": [it.model_dump() for it in page_items],
     }
 
 
